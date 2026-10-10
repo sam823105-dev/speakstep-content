@@ -1,0 +1,40 @@
+name: Publish daily B2 lesson
+
+on:
+  schedule:
+    - cron: "0 22 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-course-publisher
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate current feed
+        run: python scripts/validate_feed.py
+      - name: Generate today's B2 lesson
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-6-luna' }}
+        run: python scripts/generate_daily.py
+      - name: Validate generated feed
+        run: python scripts/validate_feed.py
+      - name: Publish feed
+        run: |
+          git config user.name "speakstep-course-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add feed/daily-lessons.json
+          git diff --cached --quiet && exit 0
+          git commit -m "content: publish daily B2 lesson"
+          git push

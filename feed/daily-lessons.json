@@ -1,0 +1,238 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-10T09:00:00+08:00",
+  "lessons": [
+    {
+      "id": "2026-10-10-negotiating-deadlines",
+      "date": "2026-10-10",
+      "title": "Negotiating a Realistic Deadline",
+      "theme": "在不破坏合作关系的前提下协商交期",
+      "cefrLevel": "B2",
+      "coreMinutes": 40,
+      "extensionMinutes": 20,
+      "objectives": ["解释延期原因而不推卸责任", "提出带条件的替代方案", "用缓和表达处理分歧"],
+      "warmUpQuestions": ["What usually causes delays in your work?", "How do you say no to an unrealistic request without sounding negative?"],
+      "passage": "A customer asked us to deliver the entire order by Friday. At first, the deadline seemed impossible because one component would not arrive until Thursday afternoon. Instead of simply rejecting the request, I explained the constraint and separated the order into two batches. We could ship the urgent items on Friday and send the remainder the following Tuesday. I also offered daily progress updates so the customer would not be left uncertain. The customer accepted the proposal because it protected their most important launch date. The experience reminded me that a good negotiation is not about winning an argument. It is about identifying the other side's real priority and building a workable solution around it.",
+      "passageTranslation": "客户要求我们在星期五前交付全部订单。起初这个期限似乎不可能，因为其中一种零件要到星期四下午才能到货。我没有直接拒绝，而是说明限制，并把订单分成两批。紧急产品可以周五发出，其余部分下周二发出。我还提出每天汇报进度，避免客户因信息不足而不安。客户接受了方案，因为它保障了最重要的上市日期。这次经历让我意识到，好的谈判不是赢得争论，而是找出对方真正的优先事项，并围绕它建立可行方案。",
+      "vocabulary": [
+        {"id":"d1-v1","term":"constraint","definition":"a limitation that affects what can be done","example":"The main constraint is the supplier's lead time."},
+        {"id":"d1-v2","term":"workable","definition":"practical and likely to succeed","example":"We need a workable solution, not a perfect one."},
+        {"id":"d1-v3","term":"the remainder","definition":"the part that is left","example":"We can ship the remainder early next week."},
+        {"id":"d1-v4","term":"protect a deadline","definition":"take action so an important date is not missed","example":"Splitting the order helped protect the launch deadline."}
+      ],
+      "quiz": [
+        {"id":"d1-q1","question":"Why did the customer accept the two-batch proposal?","options":["It reduced the price","It protected the most important launch date","It removed the need for updates"],"correctIndex":1,"explanation":"The proposal addressed the customer's real priority: the launch."},
+        {"id":"d1-q2","question":"What is the writer's main lesson?","options":["Always accept the original deadline","Negotiation should focus on underlying priorities","Customers prefer partial information"],"correctIndex":1,"explanation":"The final sentence explicitly focuses on the other side's real priority."}
+      ],
+      "speakingPrompts": [
+        {"id":"d1-s1","prompt":"Explain a delay and propose two alternatives in 60–90 seconds.","chineseHint":"结构：承认目标 → 说明限制 → 提出两种方案 → 推荐其中一种。"},
+        {"id":"d1-s2","prompt":"Respond to: ‘We need the full order by Friday. This is non-negotiable.’","chineseHint":"使用 I understand…, however…, what we can commit to is…"}
+      ],
+      "dialogue": [
+        {"id":"d1-r1","partnerLine":"We need the full order by Friday. This is non-negotiable.","partnerTranslation":"我们必须在周五收到全部订单，这一点不能商量。","responseGoal":"Acknowledge the urgency, explain the component constraint and avoid a flat refusal.","usefulPhrases":["I understand how critical Friday is","The constraint we're facing is","What we can guarantee is"]},
+        {"id":"d1-r2","partnerLine":"A partial shipment may not be enough. How does that help our launch?","partnerTranslation":"部分发货可能不够。这对我们的上市有什么帮助？","responseGoal":"Connect the urgent batch to the customer's launch priority and offer progress updates.","usefulPhrases":["The first batch would cover","This protects your priority by","We'll keep you updated"]},
+        {"id":"d1-r3","partnerLine":"All right. Please confirm the quantities and dates in writing.","partnerTranslation":"好的，请书面确认数量和日期。","responseGoal":"Confirm the next action and specify when the written plan will arrive.","usefulPhrases":["I'll send a breakdown by","It will confirm","Please let me know if"]}
+      ],
+      "writingTask": "Write a 120-word email proposing a split shipment. Include one constraint, two options and a clear recommendation.",
+      "extensionTask": "Record the same proposal twice: first in a direct style, then in a diplomatic style. Compare which phrases changed the tone."
+    },
+    {
+      "id": "2026-10-11-critical-news",
+      "date": "2026-10-11",
+      "title": "Reading News Critically",
+      "theme": "识别报道中的事实、观点与缺失信息",
+      "cefrLevel": "B2",
+      "coreMinutes": 38,
+      "extensionMinutes": 20,
+      "objectives": ["区分事实陈述与推断", "指出报道缺少的证据", "用谨慎语言表达判断"],
+      "warmUpQuestions": ["What makes you trust a news story?", "Have you ever shared information that later proved inaccurate?"],
+      "passage": "A convincing headline can create the impression that an issue has already been settled. However, responsible readers pause before accepting the conclusion. They ask who produced the information, what evidence is available, and whether alternative explanations were considered. Numbers can also mislead without being false. For example, a report may describe a fifty-percent increase but fail to mention that the number rose from two cases to three. Images are equally powerful because they can be genuine while still being presented without context. Critical reading does not mean assuming that every source is dishonest. It means matching the strength of our conclusion to the quality of the available evidence.",
+      "passageTranslation": "一个有说服力的标题会让人觉得问题已有定论。然而，负责任的读者在接受结论前会暂停思考：信息由谁发布，有什么证据，是否考虑了其他解释。数字即使真实也可能产生误导。例如，报道说增长了百分之五十，却没说明数字只是从两例增加到三例。图片也同样有力量，因为它可能真实，却脱离了语境。批判性阅读并不是认定所有来源都不诚实，而是让结论的确定程度与现有证据的质量相匹配。",
+      "vocabulary": [
+        {"id":"d2-v1","term":"settled","definition":"finally decided or no longer in doubt","example":"The debate is far from settled."},
+        {"id":"d2-v2","term":"alternative explanation","definition":"another possible reason for the same result","example":"The article ignored several alternative explanations."},
+        {"id":"d2-v3","term":"without context","definition":"without the background needed for correct understanding","example":"The quotation is misleading without context."},
+        {"id":"d2-v4","term":"match the strength of","definition":"make the degree of certainty appropriate to the evidence","example":"We should match the strength of our claim to the data."}
+      ],
+      "quiz": [
+        {"id":"d2-q1","question":"Why can a percentage be misleading?","options":["Percentages are always estimates","The original numbers may be very small","Readers cannot understand mathematics"],"correctIndex":1,"explanation":"The passage gives the example of an increase from two to three."},
+        {"id":"d2-q2","question":"What does critical reading require?","options":["Rejecting every source","Accepting only images","Adjusting certainty to evidence quality"],"correctIndex":2,"explanation":"The conclusion should be no stronger than the evidence supports."}
+      ],
+      "speakingPrompts": [
+        {"id":"d2-s1","prompt":"Describe three checks you would perform before sharing a news story.","chineseHint":"使用 First…, another factor is…, finally…"},
+        {"id":"d2-s2","prompt":"Explain why a true statistic can still create a false impression.","chineseHint":"给出一个基数很小或缺少时间范围的例子。"}
+      ],
+      "dialogue": [
+        {"id":"d2-r1","partnerLine":"This headline has been shared thousands of times, so it must be reliable.","partnerTranslation":"这个标题被转发了几千次，所以肯定可靠。","responseGoal":"Challenge popularity as evidence without dismissing the other person.","usefulPhrases":["Popularity doesn't necessarily mean","I'd like to check","The key question is"]},
+        {"id":"d2-r2","partnerLine":"But the article includes statistics. What else do you need?","partnerTranslation":"但文章有统计数据，你还需要什么？","responseGoal":"Ask for the baseline, source and comparison period.","usefulPhrases":["We still need to know","Compared with what period","Who collected the data"]}
+      ],
+      "writingTask": "Write a 120–150 word evaluation of an online claim using cautious phrases such as ‘appears to’, ‘may indicate’ and ‘the evidence is limited’.",
+      "extensionTask": "Choose one current headline and list the source, evidence, missing context and one alternative explanation. Do not copy the article."
+    },
+    {
+      "id": "2026-10-12-sustainable-choices",
+      "date": "2026-10-12",
+      "title": "Sustainable Choices at Work",
+      "theme": "讨论环保措施中的效果、成本与取舍",
+      "cefrLevel": "B2",
+      "coreMinutes": 40,
+      "extensionMinutes": 15,
+      "objectives": ["比较环保方案的实际影响", "讨论短期成本与长期收益", "提出有依据的建议"],
+      "warmUpQuestions": ["Which environmental action at work has the greatest impact?", "When can a green choice create an unexpected cost?"],
+      "passage": "Companies often announce environmental targets, but the most visible action is not always the most effective one. Replacing plastic cups may improve public perception, yet changes in energy use, transport and product design can have a much larger impact. The difficulty is that these measures require investment and cooperation across departments. A realistic plan should therefore compare the full life cycle of each option rather than focusing on a single material. It should also measure progress in a way that employees and customers can understand. If a target is ambitious but impossible to verify, it may create more suspicion than trust. Sustainability becomes credible when an organization explains both what it has achieved and where it is still falling short.",
+      "passageTranslation": "公司经常宣布环保目标，但最显眼的行动不一定最有效。更换塑料杯可能改善公众印象，但能源使用、运输和产品设计的改变可能影响更大。困难在于这些措施需要投资和跨部门合作。因此，现实的计划应比较每个选择的完整生命周期，而不是只关注一种材料；还应以员工和客户能理解的方式衡量进展。如果目标雄心勃勃却无法验证，反而可能引起更多怀疑。一个组织既说明已取得的成果，也坦诚仍有不足，可持续发展才更可信。",
+      "vocabulary": [
+        {"id":"d3-v1","term":"public perception","definition":"the way the public views something","example":"The campaign improved public perception of the brand."},
+        {"id":"d3-v2","term":"life cycle","definition":"all stages from production to disposal","example":"We assessed the product's full life cycle."},
+        {"id":"d3-v3","term":"verifiable","definition":"able to be checked and proven","example":"The company published verifiable emissions data."},
+        {"id":"d3-v4","term":"fall short","definition":"fail to reach a target or standard","example":"The first plan fell short of its target."}
+      ],
+      "quiz": [
+        {"id":"d3-q1","question":"Why may replacing cups be insufficient?","options":["Customers dislike cups","Other operational changes may have a greater impact","Cups cannot be recycled"],"correctIndex":1,"explanation":"The passage contrasts visible action with larger operational impacts."},
+        {"id":"d3-q2","question":"What makes sustainability claims credible?","options":["Only reporting successes","Using ambitious slogans","Reporting achievements and limitations honestly"],"correctIndex":2,"explanation":"Transparent reporting builds credibility."}
+      ],
+      "speakingPrompts": [
+        {"id":"d3-s1","prompt":"Recommend one sustainability measure for a small company and justify the cost.","chineseHint":"比较 initial cost、measurable impact 和 long-term benefit。"},
+        {"id":"d3-s2","prompt":"Challenge a proposal that sounds green but lacks evidence.","chineseHint":"礼貌提问：How would we measure…? Have we considered…?"}
+      ],
+      "dialogue": [
+        {"id":"d3-r1","partnerLine":"Let's replace all our packaging next month. Customers will love it.","partnerTranslation":"我们下个月把所有包装都换掉吧，客户一定会喜欢。","responseGoal":"Support the goal but ask about life-cycle impact and cost.","usefulPhrases":["I support the objective","Before we commit","Have we assessed"]},
+        {"id":"d3-r2","partnerLine":"Why are you making a simple decision so complicated?","partnerTranslation":"为什么你把一个简单决定搞得这么复杂？","responseGoal":"Explain why measurement prevents an expensive symbolic action.","usefulPhrases":["The reason is","We want to avoid","A simple measure would be"]}
+      ],
+      "writingTask": "Write a 130-word recommendation to management. Compare two options and explain how success should be measured.",
+      "extensionTask": "Create a three-column table: action, hidden cost, measurable benefit. Add at least four workplace actions."
+    },
+    {
+      "id": "2026-10-13-feedback",
+      "date": "2026-10-13",
+      "title": "Giving Constructive Feedback",
+      "theme": "在明确问题的同时保持尊重和可执行性",
+      "cefrLevel": "B2",
+      "coreMinutes": 35,
+      "extensionMinutes": 20,
+      "objectives": ["描述具体行为而非评价人格", "说明影响并提出下一步", "回应不同意见"],
+      "warmUpQuestions": ["What makes feedback difficult to accept?", "Do you prefer direct or indirect feedback? Why?"],
+      "passage": "Feedback becomes useful when it is specific enough to guide action. Saying that a presentation was weak gives the speaker little direction. Explaining that the main recommendation appeared only at the end is more helpful because the problem can be corrected. Timing also matters. Immediate feedback can prevent repeated mistakes, but a tense public discussion may cause the recipient to become defensive. A private conversation after emotions have settled is often more productive. Finally, feedback should allow room for information we may not have. Asking what influenced a decision can reveal constraints that were invisible to us. Constructive feedback combines clarity with curiosity: it states the observed impact while remaining open to another perspective.",
+      "passageTranslation": "反馈要具体到能够指导行动，才真正有用。只说演示很差，演讲者不知道如何改进；说明主要建议直到最后才出现，则更有帮助，因为问题可以修正。时机也很重要。立即反馈能防止重复错误，但在紧张的公开讨论中可能让对方产生防御。等情绪平静后私下沟通往往更有效。最后，反馈应给未知信息留出空间。询问某个决定受什么因素影响，可能揭示我们看不到的限制。建设性反馈把清晰与好奇结合起来：既说明观察到的影响，也对另一种观点保持开放。",
+      "vocabulary": [
+        {"id":"d4-v1","term":"guide action","definition":"provide enough direction for someone to act","example":"The review should guide action, not merely express dissatisfaction."},
+        {"id":"d4-v2","term":"become defensive","definition":"react as if personally attacked","example":"People become defensive when criticism feels personal."},
+        {"id":"d4-v3","term":"allow room for","definition":"leave space for another possibility","example":"We should allow room for information we do not yet have."},
+        {"id":"d4-v4","term":"observed impact","definition":"the result that was actually noticed","example":"Describe the observed impact before suggesting a solution."}
+      ],
+      "quiz": [
+        {"id":"d4-q1","question":"Why is the presentation example useful?","options":["It attacks the speaker","It identifies a correctable issue","It avoids giving any opinion"],"correctIndex":1,"explanation":"Specific feedback tells the recipient what can change."},
+        {"id":"d4-q2","question":"Why ask what influenced a decision?","options":["To expose the recipient","To delay the conversation","To discover hidden constraints"],"correctIndex":2,"explanation":"Curiosity can reveal information the reviewer lacks."}
+      ],
+      "speakingPrompts": [
+        {"id":"d4-s1","prompt":"Give feedback on a report whose conclusion is unclear.","chineseHint":"使用 When I read…, the impact was…, could we…?"},
+        {"id":"d4-s2","prompt":"Respond calmly when someone disagrees with your feedback.","chineseHint":"先承认信息差，再请求例子或背景。"}
+      ],
+      "dialogue": [
+        {"id":"d4-r1","partnerLine":"I thought the report was clear. Nobody else complained.","partnerTranslation":"我觉得报告很清楚，也没有其他人投诉。","responseGoal":"Describe the specific point of confusion without making it personal.","usefulPhrases":["The part I found difficult was","The impact was","Could we make the recommendation"]},
+        {"id":"d4-r2","partnerLine":"We didn't have time to restructure it.","partnerTranslation":"我们没有时间重新调整结构。","responseGoal":"Acknowledge the constraint and suggest a small realistic change.","usefulPhrases":["That makes sense","A smaller change could be","For the next version"]}
+      ],
+      "writingTask": "Rewrite three vague comments—‘not professional’, ‘too slow’, ‘confusing’—as specific, actionable feedback.",
+      "extensionTask": "Record a two-minute feedback conversation containing an observation, impact, question and agreed next step."
+    },
+    {
+      "id": "2026-10-14-hybrid-work",
+      "date": "2026-10-14",
+      "title": "The Trade-offs of Hybrid Work",
+      "theme": "用平衡论证讨论远程与办公室协作",
+      "cefrLevel": "B2",
+      "coreMinutes": 40,
+      "extensionMinutes": 20,
+      "objectives": ["构建包含让步的观点", "比较效率与协作成本", "总结复杂讨论"],
+      "warmUpQuestions": ["Which tasks are easier at home?", "What can remote teams lose besides face-to-face contact?"],
+      "passage": "Hybrid work is often discussed as a choice between freedom and control, but the real issue is coordination. Employees may concentrate better at home and avoid a long commute. At the same time, spontaneous questions become scheduled meetings, and new colleagues may struggle to learn informal practices. Requiring everyone to attend the office every day solves some coordination problems but removes much of the flexibility people value. A better policy defines which activities genuinely benefit from shared space. Teams might meet in person for planning, difficult decisions and relationship-building, while protecting remote time for focused individual work. The success of such a policy depends less on the number of office days than on whether expectations are clear and applied consistently.",
+      "passageTranslation": "混合办公常被描述为自由与控制之间的选择，但真正的问题是协调。员工在家可能更专注，也免去长途通勤；与此同时，临时提问变成预约会议，新同事也可能难以学到非正式的工作方式。要求所有人每天到办公室能解决部分协调问题，却会失去大家重视的灵活性。更好的政策应明确哪些活动真正受益于共享空间。团队可在线下进行规划、困难决策和关系建设，同时保留远程时间处理需要专注的个人工作。政策是否成功，与其说取决于到办公室几天，不如说取决于期望是否清晰并得到一致执行。",
+      "vocabulary": [
+        {"id":"d5-v1","term":"spontaneous","definition":"happening naturally without advance planning","example":"Remote work reduces spontaneous conversations."},
+        {"id":"d5-v2","term":"informal practices","definition":"unwritten ways of doing work","example":"New employees learn informal practices by observing colleagues."},
+        {"id":"d5-v3","term":"shared space","definition":"a physical place used together","example":"Creative workshops benefit from shared space."},
+        {"id":"d5-v4","term":"apply consistently","definition":"use the same rule fairly over time","example":"The policy must be applied consistently across teams."}
+      ],
+      "quiz": [
+        {"id":"d5-q1","question":"What does the writer identify as the central issue?","options":["Employee control","Office rent","Coordination"],"correctIndex":2,"explanation":"The opening sentence reframes the issue as coordination."},
+        {"id":"d5-q2","question":"What should determine in-person work?","options":["A fixed number chosen for every task","Activities that benefit from shared space","The longest possible commute"],"correctIndex":1,"explanation":"The proposed policy links location to the kind of activity."}
+      ],
+      "speakingPrompts": [
+        {"id":"d5-s1","prompt":"Argue for a hybrid policy while acknowledging one serious disadvantage.","chineseHint":"使用 Although…, the stronger argument is…"},
+        {"id":"d5-s2","prompt":"Summarize the passage in no more than 45 seconds.","chineseHint":"只保留问题、权衡和建议。"}
+      ],
+      "dialogue": [
+        {"id":"d5-r1","partnerLine":"If people are productive at home, why require any office days?","partnerTranslation":"如果大家在家效率高，为什么还要求到办公室？","responseGoal":"Explain which activities benefit from physical presence.","usefulPhrases":["Individual productivity is only one factor","In-person time is valuable when","For example"]},
+        {"id":"d5-r2","partnerLine":"That sounds unfair to employees with long commutes.","partnerTranslation":"这对通勤很远的员工似乎不公平。","responseGoal":"Acknowledge the cost and propose predictable, limited attendance.","usefulPhrases":["That's a valid concern","We could reduce the burden by","The schedule should be"]}
+      ],
+      "writingTask": "Write a balanced 150-word policy note recommending which activities should happen in person and which should remain remote.",
+      "extensionTask": "Interview one colleague or friend about hybrid work, then report one point that changed or complicated your view."
+    },
+    {
+      "id": "2026-10-15-customer-complaint",
+      "date": "2026-10-15",
+      "title": "Handling a Complex Complaint",
+      "theme": "承认影响、核实责任并恢复客户信任",
+      "cefrLevel": "B2",
+      "coreMinutes": 38,
+      "extensionMinutes": 20,
+      "objectives": ["在事实未完全明确时承担沟通责任", "提出调查和补救步骤", "避免过度承诺"],
+      "warmUpQuestions": ["What does an angry customer need first: facts, empathy or compensation?", "Why can an immediate promise create a second problem?"],
+      "passage": "When a complaint is complex, the first response should not attempt to solve everything. Its purpose is to show that the problem has been understood and that a reliable process has begun. A useful response acknowledges the customer's experience, summarizes the issue and confirms when the next update will arrive. It should distinguish between what is already known and what still needs investigation. This prevents the company from making a promise it may later have to withdraw. Compensation may be appropriate, but offering it before understanding the cause can distract from the customer's real concern. Trust is usually restored through accurate updates and completed actions rather than through an impressive first message.",
+      "passageTranslation": "当投诉很复杂时，第一次回复不应试图解决所有问题，而应表明问题已被理解，并且可靠的处理流程已经启动。有效的回复会承认客户的经历，概括问题，并确认下次更新的时间；还应区分已知事实和仍需调查的内容，避免公司作出之后不得不撤回的承诺。赔偿可能合适，但在了解原因前提出赔偿，可能偏离客户真正关心的问题。恢复信任通常依靠准确的更新和落实的行动，而不是一封看起来很漂亮的首次回复。",
+      "vocabulary": [
+        {"id":"d6-v1","term":"acknowledge the impact","definition":"recognize how a problem affected someone","example":"We acknowledge the impact this delay had on your launch."},
+        {"id":"d6-v2","term":"distinguish between","definition":"recognize and explain the difference","example":"Please distinguish between confirmed facts and assumptions."},
+        {"id":"d6-v3","term":"withdraw a promise","definition":"take back a commitment","example":"We do not want to withdraw a promise later."},
+        {"id":"d6-v4","term":"restore trust","definition":"build confidence again after a problem","example":"Regular updates helped restore trust."}
+      ],
+      "quiz": [
+        {"id":"d6-q1","question":"What is the main purpose of the first response?","options":["Solve every detail immediately","Show understanding and begin a reliable process","Offer the largest possible compensation"],"correctIndex":1,"explanation":"The initial response establishes understanding and next steps."},
+        {"id":"d6-q2","question":"Why separate known facts from open questions?","options":["To avoid promises that may be withdrawn","To make the message longer","To deny responsibility"],"correctIndex":0,"explanation":"Clear uncertainty prevents unreliable commitments."}
+      ],
+      "speakingPrompts": [
+        {"id":"d6-s1","prompt":"Give a 90-second first response to a customer who received defective goods.","chineseHint":"包括影响、已知事实、调查动作和明确更新时间。"},
+        {"id":"d6-s2","prompt":"Refuse an immediate refund without sounding dismissive.","chineseHint":"不要直接说 no；说明先核实什么、何时答复。"}
+      ],
+      "dialogue": [
+        {"id":"d6-r1","partnerLine":"Half the products arrived damaged. I need an answer now.","partnerTranslation":"一半产品到货时损坏了，我现在就需要答复。","responseGoal":"Acknowledge the operational impact and summarize the issue.","usefulPhrases":["I understand the impact","Let me confirm what we've heard","We'll treat this as urgent"]},
+        {"id":"d6-r2","partnerLine":"Are you going to refund the entire order or not?","partnerTranslation":"你们到底会不会退还整个订单的款项？","responseGoal":"Avoid an unsupported promise while giving a precise investigation deadline.","usefulPhrases":["I don't want to give you an unreliable answer","We need to verify","I will update you by"]}
+      ],
+      "writingTask": "Write a 130-word complaint response that includes empathy, a factual summary, two investigation steps and a precise update time.",
+      "extensionTask": "Review your message and underline every promise. Remove or qualify any promise you cannot personally guarantee."
+    },
+    {
+      "id": "2026-10-16-learning-review",
+      "date": "2026-10-16",
+      "title": "Weekly Integration Challenge",
+      "theme": "整合本周语言：分析、协商、反馈与总结",
+      "cefrLevel": "B2",
+      "coreMinutes": 45,
+      "extensionMinutes": 15,
+      "objectives": ["整合本周高频表达", "连续表达观点两分钟", "根据证据修正自己的结论"],
+      "warmUpQuestions": ["Which lesson changed how you would communicate at work?", "Which task was hardest: understanding, speaking or writing?"],
+      "passage": "Progress at B2 level is rarely about learning one more grammar rule. It is increasingly about control: choosing language that fits the purpose, recognizing uncertainty and connecting ideas clearly. A strong learner can explain a position, acknowledge a reasonable objection and still make a practical recommendation. This week’s topics may appear different, yet they share one skill. Whether we evaluate a headline, negotiate a deadline or answer a complaint, we must separate facts from assumptions and make our reasoning visible. Fluency matters, but reliable communication also requires revision. Recording an answer, noticing where the argument becomes vague and trying again is not a sign of failure. It is the process through which confident language becomes precise language.",
+      "passageTranslation": "到了 B2 水平，进步很少只是再学一条语法规则，而越来越在于控制力：选择符合目的的语言、识别不确定性并清晰连接观点。优秀的学习者能够解释立场，承认合理反对意见，同时仍提出可执行建议。本周主题看似不同，却共享一种能力：无论评估标题、协商期限还是回复投诉，我们都必须区分事实与假设，并让推理过程清晰可见。流利很重要，但可靠沟通也需要修订。录下回答、发现论证含糊之处再尝试一次，并不是失败，而是让自信表达变得精准的过程。",
+      "vocabulary": [
+        {"id":"d7-v1","term":"language control","definition":"the ability to choose accurate language for a purpose","example":"B2 learners need greater control, not just more vocabulary."},
+        {"id":"d7-v2","term":"reasonable objection","definition":"a valid argument against a proposal","example":"She acknowledged a reasonable objection before responding."},
+        {"id":"d7-v3","term":"make reasoning visible","definition":"explain how evidence leads to a conclusion","example":"A good report makes its reasoning visible."},
+        {"id":"d7-v4","term":"revise","definition":"review and improve something","example":"Record, review and revise your answer."}
+      ],
+      "quiz": [
+        {"id":"d7-q1","question":"What does the passage identify as central to B2 progress?","options":["Memorizing isolated rules","Controlling language for purpose and precision","Speaking as quickly as possible"],"correctIndex":1,"explanation":"The passage emphasizes choice, uncertainty and connected reasoning."},
+        {"id":"d7-q2","question":"Why is re-recording useful?","options":["It hides all mistakes","It turns vague reasoning into more precise communication","It replaces listening practice"],"correctIndex":1,"explanation":"Revision improves both language and reasoning."}
+      ],
+      "speakingPrompts": [
+        {"id":"d7-s1","prompt":"Give a two-minute recommendation that includes evidence, one objection and a practical next step.","chineseHint":"任选本周主题；录制两次，第二次减少停顿和模糊词。"},
+        {"id":"d7-s2","prompt":"Summarize your strongest and weakest communication skill this week.","chineseHint":"提供具体证据，不要只说 good 或 bad。"}
+      ],
+      "dialogue": [
+        {"id":"d7-r1","partnerLine":"Which communication skill improved most this week?","partnerTranslation":"本周哪项沟通能力提高最大？","responseGoal":"Name one skill and support the claim with a specific example.","usefulPhrases":["The clearest improvement was","I noticed this when","Compared with my first attempt"]},
+        {"id":"d7-r2","partnerLine":"What will you change in next week's practice?","partnerTranslation":"下周练习你会改变什么？","responseGoal":"Set one measurable goal and explain why it matters.","usefulPhrases":["My measurable goal is","I'll track it by","This matters because"]}
+      ],
+      "writingTask": "Write a 160-word weekly reflection: one useful expression, one repeated weakness, evidence of progress and one measurable goal for next week.",
+      "extensionTask": "Choose one earlier speaking recording, repeat it without reading, and compare structure, precision and delivery."
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "id": { "type": "string" },
+    "date": { "type": "string" },
+    "title": { "type": "string" },
+    "theme": { "type": "string" },
+    "cefrLevel": { "type": "string", "enum": ["B2"] },
+    "coreMinutes": { "type": "integer", "minimum": 30, "maximum": 45 },
+    "extensionMinutes": { "type": "integer", "minimum": 0, "maximum": 30 },
+    "objectives": { "type": "array", "items": { "type": "string" } },
+    "warmUpQuestions": { "type": "array", "items": { "type": "string" } },
+    "passage": { "type": "string" },
+    "passageTranslation": { "type": "string" },
+    "vocabulary": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string" },
+          "term": { "type": "string" },
+          "definition": { "type": "string" },
+          "example": { "type": "string" }
+        },
+        "required": ["id", "term", "definition", "example"]
+      }
+    },
+    "quiz": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string" },
+          "question": { "type": "string" },
+          "options": { "type": "array", "items": { "type": "string" } },
+          "correctIndex": { "type": "integer" },
+          "explanation": { "type": "string" }
+        },
+        "required": ["id", "question", "options", "correctIndex", "explanation"]
+      }
+    },
+    "speakingPrompts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string" },
+          "prompt": { "type": "string" },
+          "chineseHint": { "type": "string" }
+        },
+        "required": ["id", "prompt", "chineseHint"]
+      }
+    },
+    "dialogue": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string" },
+          "partnerLine": { "type": "string" },
+          "partnerTranslation": { "type": "string" },
+          "responseGoal": { "type": "string" },
+          "usefulPhrases": { "type": "array", "items": { "type": "string" } }
+        },
+        "required": ["id", "partnerLine", "partnerTranslation", "responseGoal", "usefulPhrases"]
+      }
+    },
+    "writingTask": { "type": "string" },
+    "extensionTask": { "type": "string" }
+  },
+  "required": [
+    "id", "date", "title", "theme", "cefrLevel", "coreMinutes", "extensionMinutes",
+    "objectives", "warmUpQuestions", "passage", "passageTranslation", "vocabulary",
+    "quiz", "speakingPrompts", "dialogue", "writingTask", "extensionTask"
+  ]
+}

@@ -22,7 +22,9 @@ jobs:
         with:
           python-version: "3.12"
       - name: Validate current feed
-        run: python scripts/validate_feed.py
+        run: |
+          python scripts/validate_feed.py
+          python scripts/validate_diagnostics.py
       - name: Generate today's B2 lesson
         run: python scripts/generate_daily.py
       - name: Validate generated feed

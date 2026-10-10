@@ -35,3 +35,11 @@ python3 scripts/validate_feed.py
 Feed 当前使用 Schema v2。`lessonID` 一经发布必须保持稳定；`publishDate` 按
 `Asia/Hong_Kong` 生成；每次新增课程都会递增 `contentVersion`。Mac 客户端同时
 兼容旧 v1 Feed，但不支持更高版本时会安全回退到本地缓存。
+
+## 内部能力诊断题库
+
+`diagnostics/diagnostic-items.json` 是 SpeakStep 自编的内部学习诊断题库，不是
+IELTS、TOEFL、Cambridge 真题，也不代表官方 CEFR 认证。运行
+`python3 scripts/validate_diagnostics.py` 可检查 ID、等级、答案、难度、来源和
+评估范围。口语题目前只保存录音完成证据；未启用真实转写或专业音素评估时，
+不得生成内容或发音等级。

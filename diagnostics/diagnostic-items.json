@@ -1,0 +1,154 @@
+[
+  {
+    "itemID": "vocab-a2-context-01", "schemaVersion": 1, "cefrLevel": "A2", "skill": "vocabulary", "subskill": "context meaning", "mode": "objective",
+    "prompt": "The delivery is late, so we need to ___ the customer.", "options": ["inform", "borrow", "repair"], "correctAnswer": "inform",
+    "explanation": "Inform means to give someone information.", "difficulty": 2, "estimatedSeconds": 35, "tags": ["work", "verb-choice"],
+    "source": "SpeakStep original item", "version": 1, "status": "active", "evaluationScope": "Vocabulary choice in a short workplace sentence."
+  },
+  {
+    "itemID": "vocab-b1-collocation-01", "schemaVersion": 1, "cefrLevel": "B1", "skill": "vocabulary", "subskill": "collocation", "mode": "objective",
+    "prompt": "Which phrase best completes the sentence? We need to ___ a decision by Friday.", "options": ["make", "do", "create up"], "correctAnswer": "make",
+    "explanation": "English uses the collocation make a decision.", "difficulty": 3, "estimatedSeconds": 35, "tags": ["collocation", "work"],
+    "source": "SpeakStep original item", "version": 1, "status": "active", "evaluationScope": "Common B1 collocation recognition."
+  },
+  {
+    "itemID": "vocab-b2-nuance-01", "schemaVersion": 1, "cefrLevel": "B2", "skill": "vocabulary", "subskill": "meaning nuance", "mode": "objective",
+    "prompt": "A workable proposal is one that is ___.", "options": ["practical enough to succeed", "impossible to change", "written in formal language"], "correctAnswer": "practical enough to succeed",
+    "explanation": "Workable describes a practical solution that can succeed.", "difficulty": 4, "estimatedSeconds": 40, "tags": ["nuance", "negotiation"],
+    "source": "SpeakStep original item", "version": 1, "status": "active", "evaluationScope": "B2 meaning distinction in context."
+  },
+  {
+    "itemID": "vocab-b2-register-02", "schemaVersion": 1, "cefrLevel": "B2", "skill": "vocabulary", "subskill": "register", "mode": "objective",
+    "prompt": "Which is the most diplomatic way to describe a problem in a client email?", "options": ["Your request is impossible.", "We are facing a timing constraint.", "You caused a bad schedule."], "correctAnswer": "We are facing a timing constraint.",
+    "explanation": "Timing constraint states the limitation without blaming the client.", "difficulty": 4.2, "estimatedSeconds": 45, "tags": ["register", "business-email"],
+    "source": "SpeakStep original item", "version": 1, "status": "active", "evaluationScope": "Diplomatic lexical choice in business communication."
+  },
+  {
+    "itemID": "vocab-c1-precision-01", "schemaVersion": 1, "cefrLevel": "C1", "skill": "vocabulary", "subskill": "precision", "mode": "objective",
+    "prompt": "Which word best describes evidence that appears convincing but is not conclusive?", "options": ["suggestive", "identical", "mandatory"], "correctAnswer": "suggestive",
+    "explanation": "Suggestive evidence points toward a conclusion without proving it.", "difficulty": 5, "estimatedSeconds": 45, "tags": ["precision", "evidence"],
+    "source": "SpeakStep original item", "version": 1, "status": "active", "evaluationScope": "C1 precision of abstract vocabulary."
+  },
+
+  {
+    "itemID": "grammar-a2-past-01", "schemaVersion": 1, "cefrLevel": "A2", "skill": "grammar", "subskill": "past simple", "mode": "objective",
+    "prompt": "Yesterday, the supplier ___ the revised schedule.", "options": ["sent", "sends", "sending"], "correctAnswer": "sent",
+    "explanation": "Yesterday signals the past simple form sent.", "difficulty": 2, "estimatedSeconds": 30, "tags": ["past-simple", "time-reference"],
+    "source": "SpeakStep original item", "version": 1, "status": "active", "evaluationScope": "Past tense selection with an explicit time marker."
+  },
+  {
+    "itemID": "grammar-b1-conditional-01", "schemaVersion": 1, "cefrLevel": "B1", "skill": "grammar", "subskill": "first conditional", "mode": "objective",
+    "prompt": "If the parts arrive today, we ___ production tomorrow.", "options": ["will start", "started", "would have started"], "correctAnswer": "will start",
+    "explanation": "A real future condition uses if + present and will + verb.", "difficulty": 3, "estimatedSeconds": 35, "tags": ["conditional", "planning"],
+    "source": "SpeakStep original item", "version": 1, "status": "active", "evaluationScope": "First conditional form and meaning."
+  },
+  {
+    "itemID": "grammar-b2-concession-01", "schemaVersion": 1, "cefrLevel": "B2", "skill": "grammar", "subskill": "concession", "mode": "objective",
+    "prompt": "___ the deadline is demanding, the team believes it is achievable.", "options": ["Although", "Because of", "Unless"], "correctAnswer": "Although",
+    "explanation": "Although introduces a contrast between difficulty and achievability.", "difficulty": 4, "estimatedSeconds": 40, "tags": ["concession", "linking"],
+    "source": "SpeakStep original item", "version": 1, "status": "active", "evaluationScope": "B2 clause linking and concession."
+  },
+  {
+    "itemID": "grammar-b2-modal-02", "schemaVersion": 1, "cefrLevel": "B2", "skill": "grammar", "subskill": "past deduction", "mode": "objective",
+    "prompt": "The client did not receive the email. It ___ to the wrong address.", "options": ["may have been sent", "must send", "may be sending yesterday"], "correctAnswer": "may have been sent",
+    "explanation": "May have been sent expresses an uncertain deduction about a past passive event.", "difficulty": 4.3, "estimatedSeconds": 45, "tags": ["modal", "past-deduction", "passive"],
+    "source": "SpeakStep original item", "version": 1, "status": "active", "evaluationScope": "Modal perfect passive for cautious past deduction."
+  },
+  {
+    "itemID": "grammar-c1-inversion-01", "schemaVersion": 1, "cefrLevel": "C1", "skill": "grammar", "subskill": "inversion", "mode": "objective",
+    "prompt": "Choose the correct formal sentence.", "options": ["Rarely we have seen such a rapid change.", "Rarely have we seen such a rapid change.", "Rarely did we have saw such a rapid change."], "correctAnswer": "Rarely have we seen such a rapid change.",
+    "explanation": "A negative adverb at the beginning triggers auxiliary-subject inversion.", "difficulty": 5, "estimatedSeconds": 50, "tags": ["inversion", "formal-register"],
+    "source": "SpeakStep original item", "version": 1, "status": "active", "evaluationScope": "C1 inversion after a fronted negative adverb."
+  },
+
+  {
+    "itemID": "reading-a2-detail-01", "schemaVersion": 1, "cefrLevel": "A2", "skill": "reading", "subskill": "explicit detail", "mode": "objective",
+    "prompt": "Notice: The meeting starts at 10:30 in Room 4. Please arrive ten minutes early. When should participants arrive?", "options": ["10:20", "10:30", "10:40"], "correctAnswer": "10:20",
+    "explanation": "Ten minutes before 10:30 is 10:20.", "difficulty": 2, "estimatedSeconds": 45, "tags": ["detail", "time"],
+    "source": "SpeakStep original item", "version": 1, "status": "active", "evaluationScope": "Locate one explicit detail in a short notice."
+  },
+  {
+    "itemID": "reading-b1-purpose-01", "schemaVersion": 1, "cefrLevel": "B1", "skill": "reading", "subskill": "writer purpose", "mode": "objective",
+    "prompt": "Message: We cannot confirm Friday delivery yet, but we will send a firm update by 3 p.m. tomorrow. What is the main purpose?", "options": ["To cancel the order", "To manage uncertainty and promise an update", "To confirm Friday delivery"], "correctAnswer": "To manage uncertainty and promise an update",
+    "explanation": "The writer avoids an unsupported promise and gives a precise next update.", "difficulty": 3, "estimatedSeconds": 55, "tags": ["purpose", "customer-update"],
+    "source": "SpeakStep original item", "version": 1, "status": "active", "evaluationScope": "Identify communicative purpose in a short workplace message."
+  },
+  {
+    "itemID": "reading-b2-inference-01", "schemaVersion": 1, "cefrLevel": "B2", "skill": "reading", "subskill": "inference", "mode": "objective",
+    "prompt": "A report highlights a 50% increase but notes only in a footnote that cases rose from two to three. What concern does this raise?", "options": ["The percentage is mathematically false", "The presentation may exaggerate the practical significance", "Footnotes are never reliable"], "correctAnswer": "The presentation may exaggerate the practical significance",
+    "explanation": "The percentage is true, but the small baseline changes how important it appears.", "difficulty": 4, "estimatedSeconds": 65, "tags": ["inference", "evidence", "baseline"],
+    "source": "SpeakStep original item", "version": 1, "status": "active", "evaluationScope": "Infer a limitation from how evidence is presented."
+  },
+  {
+    "itemID": "reading-b2-stance-02", "schemaVersion": 1, "cefrLevel": "B2", "skill": "reading", "subskill": "stance", "mode": "objective",
+    "prompt": "Text: Hybrid work is not simply a choice between freedom and control. Its success depends on matching each activity to the environment that supports it. Which view best matches the writer?", "options": ["All work should be remote", "Location rules should depend on the type of work", "Office work always improves performance"], "correctAnswer": "Location rules should depend on the type of work",
+    "explanation": "The writer recommends choosing location according to the activity.", "difficulty": 4.2, "estimatedSeconds": 65, "tags": ["stance", "summary", "hybrid-work"],
+    "source": "SpeakStep original item", "version": 1, "status": "active", "evaluationScope": "Identify a nuanced writer stance."
+  },
+  {
+    "itemID": "reading-c1-argument-01", "schemaVersion": 1, "cefrLevel": "C1", "skill": "reading", "subskill": "argument structure", "mode": "objective",
+    "prompt": "Text: Transparency alone does not create trust; an organisation may publish abundant data while obscuring the assumptions that shape it. What distinction is central?", "options": ["Data quantity versus reasoning clarity", "Public data versus private data", "Trust versus legal compliance"], "correctAnswer": "Data quantity versus reasoning clarity",
+    "explanation": "The sentence contrasts publishing much data with explaining the assumptions behind it.", "difficulty": 5, "estimatedSeconds": 75, "tags": ["argument", "contrast", "transparency"],
+    "source": "SpeakStep original item", "version": 1, "status": "active", "evaluationScope": "Recognise an abstract contrast in a compact argument."
+  },
+
+  {
+    "itemID": "listening-a2-detail-01", "schemaVersion": 1, "cefrLevel": "A2", "skill": "listening", "subskill": "explicit detail", "mode": "objective",
+    "prompt": "播放音频后回答：货物什么时候到？", "options": ["Tuesday morning", "Wednesday afternoon", "Friday evening"], "correctAnswer": "Wednesday afternoon",
+    "explanation": "The message says the shipment will arrive on Wednesday afternoon.", "difficulty": 2, "estimatedSeconds": 45, "tags": ["detail", "delivery"], "audioText": "The shipment will arrive on Wednesday afternoon, not Tuesday morning.",
+    "source": "SpeakStep original item", "version": 1, "status": "active", "evaluationScope": "Understand one explicit time detail from synthesised US English audio."
+  },
+  {
+    "itemID": "listening-b1-gist-01", "schemaVersion": 1, "cefrLevel": "B1", "skill": "listening", "subskill": "gist", "mode": "objective",
+    "prompt": "播放音频后回答：说话人的主要建议是什么？", "options": ["Cancel the meeting", "Move the meeting online", "Invite more people"], "correctAnswer": "Move the meeting online",
+    "explanation": "The speaker recommends an online meeting because travel may be disrupted.", "difficulty": 3, "estimatedSeconds": 55, "tags": ["gist", "recommendation"], "audioText": "With the storm expected tomorrow, I suggest we move the meeting online rather than asking everyone to travel.",
+    "source": "SpeakStep original item", "version": 1, "status": "active", "evaluationScope": "Identify the gist of a short synthesised US English message."
+  },
+  {
+    "itemID": "listening-b2-attitude-01", "schemaVersion": 1, "cefrLevel": "B2", "skill": "listening", "subskill": "speaker attitude", "mode": "objective",
+    "prompt": "播放音频后回答：说话人对方案持什么态度？", "options": ["Fully opposed", "Supportive but cautious", "Completely certain"], "correctAnswer": "Supportive but cautious",
+    "explanation": "The speaker sees value but requests cost evidence before committing.", "difficulty": 4, "estimatedSeconds": 65, "tags": ["attitude", "caution"], "audioText": "The proposal has real potential, although I would like to see clearer cost estimates before we commit to it.",
+    "source": "SpeakStep original item", "version": 1, "status": "active", "evaluationScope": "Infer attitude from concession and cautious language in synthesised US English audio."
+  },
+  {
+    "itemID": "listening-b2-implication-02", "schemaVersion": 1, "cefrLevel": "B2", "skill": "listening", "subskill": "implication", "mode": "objective",
+    "prompt": "播放音频后回答：说话人暗示下一步应该做什么？", "options": ["Promise a refund immediately", "Investigate before deciding compensation", "Ignore the complaint"], "correctAnswer": "Investigate before deciding compensation",
+    "explanation": "The speaker wants facts confirmed before choosing a remedy.", "difficulty": 4.3, "estimatedSeconds": 70, "tags": ["implication", "complaint"], "audioText": "We should acknowledge the customer's experience now, but I would avoid discussing compensation until we have confirmed what caused the damage.",
+    "source": "SpeakStep original item", "version": 1, "status": "active", "evaluationScope": "Infer a recommended action from a short synthesised US English discussion."
+  },
+  {
+    "itemID": "listening-c1-position-01", "schemaVersion": 1, "cefrLevel": "C1", "skill": "listening", "subskill": "qualified position", "mode": "objective",
+    "prompt": "播放音频后回答：哪一项最准确概括说话人的立场？", "options": ["Efficiency data should replace employee feedback", "Neither efficiency data nor employee feedback is sufficient alone", "Employee feedback is always more reliable"], "correctAnswer": "Neither efficiency data nor employee feedback is sufficient alone",
+    "explanation": "The speaker argues that each source corrects limitations in the other.", "difficulty": 5, "estimatedSeconds": 80, "tags": ["qualified-position", "evidence"], "audioText": "Efficiency figures matter, but without employee feedback they may conceal why performance changed. Equally, personal impressions need to be checked against measurable outcomes.",
+    "source": "SpeakStep original item", "version": 1, "status": "active", "evaluationScope": "Understand a qualified C1 position in synthesised US English audio."
+  },
+
+  {
+    "itemID": "speaking-read-b1-01", "schemaVersion": 1, "cefrLevel": "B1", "skill": "fluency", "subskill": "read aloud", "mode": "speaking",
+    "prompt": "朗读任务", "explanation": "朗读录音用于建立后续人工比较基线；不进行音素评分。", "difficulty": 3, "estimatedSeconds": 60, "tags": ["read-aloud", "baseline"],
+    "source": "SpeakStep original item", "version": 1, "status": "active", "speakingPrompt": "Clear communication requires both accurate information and a practical next step.",
+    "preparationSeconds": 10, "maximumSeconds": 45, "targetFunctions": ["read aloud"], "targetVocabulary": ["accurate", "practical"],
+    "evaluationScope": "Recording completion only; no transcription or phoneme-level pronunciation score.", "referenceAnswer": "Read the sentence clearly at a comfortable pace."
+  },
+  {
+    "itemID": "speaking-describe-b1-01", "schemaVersion": 1, "cefrLevel": "B1", "skill": "speakingContent", "subskill": "situation description", "mode": "speaking",
+    "prompt": "情景描述", "explanation": "当前版本保存录音完成证据，不自动判断内容准确度。", "difficulty": 3, "estimatedSeconds": 90, "tags": ["description", "workplace"],
+    "source": "SpeakStep original item", "version": 1, "status": "active", "speakingPrompt": "Describe a busy workplace scene: what people are doing, what problem may occur, and what should happen next.",
+    "preparationSeconds": 20, "maximumSeconds": 60, "targetFunctions": ["describe", "predict", "recommend"], "targetVocabulary": ["appears to", "might", "should"],
+    "evaluationScope": "Content can only be assessed if a real transcript becomes available; pronunciation is excluded.", "referenceAnswer": "Describe visible actions, identify one possible problem, and recommend a next step."
+  },
+  {
+    "itemID": "speaking-opinion-b2-01", "schemaVersion": 1, "cefrLevel": "B2", "skill": "speakingContent", "subskill": "opinion", "mode": "speaking",
+    "prompt": "观点表达", "explanation": "观点任务关注结构；当前无转写时不自动给内容分数。", "difficulty": 4, "estimatedSeconds": 110, "tags": ["opinion", "reasoning"],
+    "source": "SpeakStep original item", "version": 1, "status": "active", "speakingPrompt": "Should companies require employees to work in the office several days a week? Give your view, one reason, one objection, and a recommendation.",
+    "preparationSeconds": 30, "maximumSeconds": 90, "targetFunctions": ["state a view", "acknowledge an objection", "recommend"], "targetVocabulary": ["although", "from my perspective", "a practical approach"],
+    "evaluationScope": "Argument content and completeness only when transcription is genuinely available; pronunciation is excluded.", "referenceAnswer": "State a position, support it, acknowledge a reasonable objection, and finish with a practical recommendation."
+  },
+  {
+    "itemID": "speaking-response-b2-01", "schemaVersion": 1, "cefrLevel": "B2", "skill": "interaction", "subskill": "situational response", "mode": "speaking",
+    "prompt": "情景回应", "explanation": "回应任务用于收集互动样本；固定脚本不等于真实 AI 对话。", "difficulty": 4.2, "estimatedSeconds": 90, "tags": ["interaction", "negotiation"],
+    "source": "SpeakStep original item", "version": 1, "status": "active", "speakingPrompt": "A client says: ‘We need the full order by Friday. This is non-negotiable.’ Respond diplomatically and propose a workable next step.",
+    "preparationSeconds": 20, "maximumSeconds": 60, "targetFunctions": ["acknowledge", "explain a constraint", "propose"], "targetVocabulary": ["I understand", "the constraint is", "what we can commit to"],
+    "evaluationScope": "Interaction content only when a transcript is genuinely available; no phoneme-level pronunciation assessment.", "referenceAnswer": "Acknowledge the deadline, explain the constraint, and offer a concrete alternative with dates."
+  }
+]

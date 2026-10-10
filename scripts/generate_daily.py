@@ -33,9 +33,9 @@ def load_json(path: Path) -> dict:
 
 def course_library(feed: dict) -> list[dict]:
     lessons = [
-        item for item in feed.get("lessons", []) if item.get("date") in COURSE_LIBRARY_DATES
+        item for item in feed.get("lessons", []) if item.get("publishDate") in COURSE_LIBRARY_DATES
     ]
-    lessons.sort(key=lambda item: item["date"])
+    lessons.sort(key=lambda item: item["publishDate"])
     if len(lessons) != len(COURSE_LIBRARY_DATES):
         raise RuntimeError("The reviewed seven-lesson B2 course library is incomplete")
     return lessons
@@ -55,14 +55,14 @@ def update_nested_ids(lesson: dict, day: dt.date) -> None:
 
 def validate_lesson(lesson: dict) -> None:
     required = {
-        "id", "date", "title", "theme", "cefrLevel", "coreMinutes", "extensionMinutes",
+        "lessonID", "publishDate", "title", "theme", "level", "coreMinutes", "extensionMinutes",
         "objectives", "warmUpQuestions", "passage", "passageTranslation", "vocabulary",
         "quiz", "speakingPrompts", "dialogue", "writingTask", "extensionTask",
     }
     missing = required - set(lesson)
     if missing:
         raise ValueError(f"Missing fields: {sorted(missing)}")
-    if lesson["cefrLevel"] != "B2" or not 30 <= lesson["coreMinutes"] <= 45:
+    if lesson["level"] != "B2" or not 30 <= lesson["coreMinutes"] <= 45:
         raise ValueError("Invalid level or core duration")
     if len(lesson["vocabulary"]) < 4 or len(lesson["quiz"]) < 2:
         raise ValueError("Lesson must have at least 4 vocabulary items and 2 quiz questions")
@@ -76,7 +76,7 @@ def validate_lesson(lesson: dict) -> None:
 def main() -> None:
     day = local_today()
     feed = load_json(FEED_PATH)
-    if any(item.get("date") == day.isoformat() for item in feed.get("lessons", [])):
+    if any(item.get("publishDate") == day.isoformat() for item in feed.get("lessons", [])):
         print(f"Lesson for {day.isoformat()} already exists; no update needed")
         return
 
@@ -85,24 +85,25 @@ def main() -> None:
     lesson = copy.deepcopy(library[library_index])
 
     slug = re.sub(r"[^a-z0-9]+", "-", lesson["title"].lower()).strip("-")[:48]
-    lesson["id"] = f"{day.isoformat()}-{slug}"
-    lesson["date"] = day.isoformat()
-    lesson["cefrLevel"] = "B2"
+    lesson["lessonID"] = f"{day.isoformat()}-{slug}"
+    lesson["publishDate"] = day.isoformat()
+    lesson["level"] = "B2"
     update_nested_ids(lesson, day)
     validate_lesson(lesson)
 
-    lessons = [item for item in feed.get("lessons", []) if item["date"] != day.isoformat()]
+    lessons = [item for item in feed.get("lessons", []) if item["publishDate"] != day.isoformat()]
     lessons.append(lesson)
-    lessons.sort(key=lambda item: item["date"])
-    reviewed_library = [item for item in lessons if item["date"] in COURSE_LIBRARY_DATES]
-    recent_lessons = [item for item in lessons if item["date"] not in COURSE_LIBRARY_DATES][-53:]
+    lessons.sort(key=lambda item: item["publishDate"])
+    reviewed_library = [item for item in lessons if item["publishDate"] in COURSE_LIBRARY_DATES]
+    recent_lessons = [item for item in lessons if item["publishDate"] not in COURSE_LIBRARY_DATES][-53:]
     feed = {
-        "schemaVersion": 1,
+        "schemaVersion": 2,
+        "contentVersion": int(feed.get("contentVersion", 1)) + 1,
         "updatedAt": dt.datetime.now(dt.timezone.utc).isoformat().replace("+00:00", "Z"),
         "lessons": reviewed_library + recent_lessons,
     }
     FEED_PATH.write_text(json.dumps(feed, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"Published {lesson['id']} from reviewed course library item {library_index + 1}")
+    print(f"Published {lesson['lessonID']} from reviewed course library item {library_index + 1}")
 
 
 if __name__ == "__main__":

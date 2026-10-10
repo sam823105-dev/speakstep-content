@@ -18,7 +18,8 @@ SpeakStep 的每日 B2 课程内容仓库。GitHub Actions 每天香港时间约
 
 - 当前模式不调用任何付费 AI API，没有模型调用费，也没有密钥泄漏风险。
 - 公开仓库使用标准 GitHub-hosted runner 时，GitHub Actions 分钟免费。
-- 生成内容在发布前会检查等级、时长、题目答案、跟读/对话所需字段。
+- 生成内容在发布前会检查 Schema 与内容版本、必填字段、空字符串、唯一课程 ID、
+  日期、B2 等级、时长、题目答案、HTTPS 资源地址和跟读/对话所需字段。
 - GitHub 的定时任务可能延迟几分钟，不能承诺精确到 06:00 整。
 - 当前课程库只有 7 节，重复是已知限制。扩充为 30 或 90 节后可减少重复。
 
@@ -30,3 +31,7 @@ python3 scripts/validate_feed.py
 
 为了复现某一天，可以设置 `LESSON_DATE=2026-10-17` 后运行生成脚本。课程库的
 首个周期（2026-10-10 至 2026-10-16）会一直保留，供后续日期轮换使用。
+
+Feed 当前使用 Schema v2。`lessonID` 一经发布必须保持稳定；`publishDate` 按
+`Asia/Hong_Kong` 生成；每次新增课程都会递增 `contentVersion`。Mac 客户端同时
+兼容旧 v1 Feed，但不支持更高版本时会安全回退到本地缓存。

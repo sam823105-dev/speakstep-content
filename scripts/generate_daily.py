@@ -17,7 +17,7 @@ FEED_PATH = ROOT / "feed" / "daily-lessons.json"
 HONG_KONG = ZoneInfo("Asia/Hong_Kong")
 COURSE_START = dt.date(2026, 10, 10)
 COURSE_LIBRARY_DATES = {
-    (COURSE_START + dt.timedelta(days=offset)).isoformat() for offset in range(7)
+    (COURSE_START + dt.timedelta(days=offset)).isoformat() for offset in range(10)
 }
 
 
@@ -37,7 +37,7 @@ def course_library(feed: dict) -> list[dict]:
     ]
     lessons.sort(key=lambda item: item["publishDate"])
     if len(lessons) != len(COURSE_LIBRARY_DATES):
-        raise RuntimeError("The reviewed seven-lesson B2 course library is incomplete")
+        raise RuntimeError("The reviewed ten-lesson B2 course library is incomplete")
     return lessons
 
 

@@ -1,6 +1,7 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-10-17T09:00:00+08:00",
+  "contentVersion": 4,
+  "updatedAt": "2026-10-20T00:52:32.404273Z",
   "lessons": [
     {
       "title": "Negotiating a Realistic Deadline",
@@ -786,30 +787,66 @@
       "passage": "Halfway through a packaging project, the customer asked us to replace the original material and add two new tests. The request sounded simple, but it affected several parts of the schedule. Before agreeing, I asked whether the new material was required for every model and which test standard the customer expected. I then summarized the change in writing and explained its likely impact on cost, sample approval and delivery. Rather than saying that the request was impossible, I offered two routes. We could keep the original launch date by changing only the priority models, or apply the change to the full order and move delivery by one week. The customer chose the first option. Clear questions prevented us from making an expensive assumption and gave both sides a shared basis for the decision.",
       "passageTranslation": "包装项目进行到一半时，客户要求更换原材料并增加两项测试。这个要求听起来简单，却会影响进度的多个环节。在答应之前，我先确认新材料是否适用于所有型号，以及客户要求哪一种测试标准。随后我用书面方式总结变更，并说明它可能对成本、样品批准和交付造成的影响。我没有直接说要求无法实现，而是提供两条路径：如果只更改优先型号，可以保留原上市日期；如果整批订单都变更，交付则需要延后一周。客户选择了第一种。清晰的问题避免了代价高昂的假设，也为双方决策建立了共同依据。",
       "vocabulary": [
-        { "id": "d8-v1", "term": "scope", "definition": "the exact range of work included in a project", "example": "We need to confirm whether the request changes the project scope." },
-        { "id": "d8-v2", "term": "likely impact", "definition": "the effect that something is expected to have", "example": "Please review the likely impact on cost and timing." },
-        { "id": "d8-v3", "term": "shared basis", "definition": "information or principles accepted by everyone involved", "example": "The written summary gave us a shared basis for the decision." },
-        { "id": "d8-v4", "term": "make an assumption", "definition": "accept something as true without enough evidence", "example": "Ask for the test standard instead of making an assumption." }
+        {
+          "id": "d8-v1",
+          "term": "scope",
+          "definition": "the exact range of work included in a project",
+          "example": "We need to confirm whether the request changes the project scope."
+        },
+        {
+          "id": "d8-v2",
+          "term": "likely impact",
+          "definition": "the effect that something is expected to have",
+          "example": "Please review the likely impact on cost and timing."
+        },
+        {
+          "id": "d8-v3",
+          "term": "shared basis",
+          "definition": "information or principles accepted by everyone involved",
+          "example": "The written summary gave us a shared basis for the decision."
+        },
+        {
+          "id": "d8-v4",
+          "term": "make an assumption",
+          "definition": "accept something as true without enough evidence",
+          "example": "Ask for the test standard instead of making an assumption."
+        }
       ],
       "quiz": [
         {
           "id": "d8-q1",
           "question": "Why did the writer ask which models needed the new material?",
-          "options": ["To avoid an unnecessary full-order change", "To cancel the project", "To select a cheaper customer"],
+          "options": [
+            "To avoid an unnecessary full-order change",
+            "To cancel the project",
+            "To select a cheaper customer"
+          ],
           "correctIndex": 0,
           "explanation": "The scope question made it possible to change only the priority models."
         },
         {
           "id": "d8-q2",
           "question": "What made the two proposed routes useful?",
-          "options": ["They hid the extra cost", "They connected scope choices with schedule consequences", "They guaranteed that no tests were needed"],
+          "options": [
+            "They hid the extra cost",
+            "They connected scope choices with schedule consequences",
+            "They guaranteed that no tests were needed"
+          ],
           "correctIndex": 1,
           "explanation": "Each route showed a clear trade-off between the amount of change and the delivery date."
         }
       ],
       "speakingPrompts": [
-        { "id": "d8-s1", "prompt": "Ask four questions to clarify a customer's change request.", "chineseHint": "覆盖型号、数量、标准和期望日期，不要立即承诺。" },
-        { "id": "d8-s2", "prompt": "Explain two implementation options and recommend one of them.", "chineseHint": "使用 If we…, the impact would be…；最后明确推荐。" }
+        {
+          "id": "d8-s1",
+          "prompt": "Ask four questions to clarify a customer's change request.",
+          "chineseHint": "覆盖型号、数量、标准和期望日期，不要立即承诺。"
+        },
+        {
+          "id": "d8-s2",
+          "prompt": "Explain two implementation options and recommend one of them.",
+          "chineseHint": "使用 If we…, the impact would be…；最后明确推荐。"
+        }
       ],
       "dialogue": [
         {
@@ -817,14 +854,22 @@
           "partnerLine": "We would like to use the new material for this order. Can you confirm today?",
           "partnerTranslation": "我们想在这批订单中使用新材料，你今天能确认吗？",
           "responseGoal": "Acknowledge the request and clarify its scope before committing.",
-          "usefulPhrases": ["Before I confirm", "Could you clarify whether", "Does this apply to"]
+          "usefulPhrases": [
+            "Before I confirm",
+            "Could you clarify whether",
+            "Does this apply to"
+          ]
         },
         {
           "id": "d8-r2",
           "partnerLine": "Why would such a small change affect delivery?",
           "partnerTranslation": "这么小的改动为什么会影响交付？",
           "responseGoal": "Explain the testing and approval dependencies without sounding defensive.",
-          "usefulPhrases": ["The change itself is manageable", "The timing impact comes from", "Once approval is complete"]
+          "usefulPhrases": [
+            "The change itself is manageable",
+            "The timing impact comes from",
+            "Once approval is complete"
+          ]
         }
       ],
       "writingTask": "Write a 130-word change-request summary covering scope, assumptions, timing impact, two options and the decision needed from the customer.",
@@ -850,30 +895,66 @@
       "passage": "When I arrived at the hotel, the receptionist could not find my reservation, even though I had a confirmation email. The hotel was almost full, and the only available room was more expensive than the one I had booked. I remained calm and showed the booking number, dates and payment record. I explained that I understood mistakes could happen, but I should not have to pay extra for a problem I had not caused. The receptionist checked with the manager and offered the available room at my original price, including breakfast. Before accepting, I confirmed that the rate would remain unchanged for all three nights and asked for the new arrangement in writing. The problem took fifteen minutes to resolve. Staying specific and focusing on a fair outcome was more effective than expressing general frustration.",
       "passageTranslation": "我到达酒店时，前台找不到我的预订，尽管我有确认邮件。酒店几乎满房，唯一剩下的房间比我原订的更贵。我保持冷静，出示了预订编号、日期和付款记录。我说明自己理解错误可能发生，但不应该为并非由我造成的问题支付额外费用。前台与经理确认后，以原价提供了现有房间，并包含早餐。在接受之前，我确认三晚房价都会保持不变，并要求把新安排写下来。问题用了十五分钟解决。具体说明事实并专注于公平结果，比笼统表达不满更有效。",
       "vocabulary": [
-        { "id": "d9-v1", "term": "confirmation email", "definition": "a message proving that a booking has been accepted", "example": "I can show you the confirmation email and booking number." },
-        { "id": "d9-v2", "term": "available room", "definition": "a room that is not currently booked", "example": "The only available room was a larger one." },
-        { "id": "d9-v3", "term": "at the original price", "definition": "for the same price agreed at first", "example": "The manager offered the room at the original price." },
-        { "id": "d9-v4", "term": "fair outcome", "definition": "a reasonable result that treats the people involved properly", "example": "We focused on finding a fair outcome." }
+        {
+          "id": "d9-v1",
+          "term": "confirmation email",
+          "definition": "a message proving that a booking has been accepted",
+          "example": "I can show you the confirmation email and booking number."
+        },
+        {
+          "id": "d9-v2",
+          "term": "available room",
+          "definition": "a room that is not currently booked",
+          "example": "The only available room was a larger one."
+        },
+        {
+          "id": "d9-v3",
+          "term": "at the original price",
+          "definition": "for the same price agreed at first",
+          "example": "The manager offered the room at the original price."
+        },
+        {
+          "id": "d9-v4",
+          "term": "fair outcome",
+          "definition": "a reasonable result that treats the people involved properly",
+          "example": "We focused on finding a fair outcome."
+        }
       ],
       "quiz": [
         {
           "id": "d9-q1",
           "question": "Why did the writer refuse to pay the higher rate?",
-          "options": ["The room included breakfast", "The booking problem was not the writer's fault", "The stay was only one night"],
+          "options": [
+            "The room included breakfast",
+            "The booking problem was not the writer's fault",
+            "The stay was only one night"
+          ],
           "correctIndex": 1,
           "explanation": "The writer had evidence of the original booking and had not caused the error."
         },
         {
           "id": "d9-q2",
           "question": "What did the writer confirm before accepting the solution?",
-          "options": ["The rate for the entire stay and written confirmation", "The name of every hotel employee", "A free future holiday"],
+          "options": [
+            "The rate for the entire stay and written confirmation",
+            "The name of every hotel employee",
+            "A free future holiday"
+          ],
           "correctIndex": 0,
           "explanation": "The writer checked the three-night rate and requested the arrangement in writing."
         }
       ],
       "speakingPrompts": [
-        { "id": "d9-s1", "prompt": "Explain a missing hotel reservation using the booking number, dates and payment evidence.", "chineseHint": "先讲事实，再说明期望的解决结果。" },
-        { "id": "d9-s2", "prompt": "Politely refuse an extra charge and ask for an alternative solution.", "chineseHint": "使用 I understand…, but I don't believe I should…" }
+        {
+          "id": "d9-s1",
+          "prompt": "Explain a missing hotel reservation using the booking number, dates and payment evidence.",
+          "chineseHint": "先讲事实，再说明期望的解决结果。"
+        },
+        {
+          "id": "d9-s2",
+          "prompt": "Politely refuse an extra charge and ask for an alternative solution.",
+          "chineseHint": "使用 I understand…, but I don't believe I should…"
+        }
       ],
       "dialogue": [
         {
@@ -881,14 +962,22 @@
           "partnerLine": "I'm sorry, but I can't find a reservation under your name.",
           "partnerTranslation": "很抱歉，我找不到您名下的预订。",
           "responseGoal": "Present the booking evidence and ask the receptionist to check again.",
-          "usefulPhrases": ["I have a confirmation here", "The booking number is", "Could you check using"]
+          "usefulPhrases": [
+            "I have a confirmation here",
+            "The booking number is",
+            "Could you check using"
+          ]
         },
         {
           "id": "d9-r2",
           "partnerLine": "We have another room, but the nightly rate is higher.",
           "partnerTranslation": "我们还有另一间房，但每晚价格更高。",
           "responseGoal": "Decline the extra charge and request a fair solution based on the confirmed booking.",
-          "usefulPhrases": ["I appreciate the option", "Since my original booking was confirmed", "Could you honor the original rate"]
+          "usefulPhrases": [
+            "I appreciate the option",
+            "Since my original booking was confirmed",
+            "Could you honor the original rate"
+          ]
         }
       ],
       "writingTask": "Write a 120-word message to a hotel summarizing a booking problem, the evidence you provided and the solution you are requesting.",
@@ -914,30 +1003,66 @@
       "passage": "Disagreement becomes difficult when people feel that their judgment or identity is being attacked. One useful approach is to separate the person from the proposal. Begin by identifying a point you genuinely understand, then state the specific part you see differently. Evidence helps, but it should be connected to a shared goal rather than used as a weapon. For example, instead of saying, 'Your plan is too risky,' you might say, 'I can see why speed matters. My concern is that we have not tested the payment process, and we both want the launch to be reliable.' This structure does not remove the disagreement. It makes the disagreement easier to examine. It also leaves room for a mixed solution, such as testing the highest-risk part first while allowing the rest of the work to continue.",
       "passageTranslation": "当人们觉得自己的判断或身份受到攻击时，分歧就会变得棘手。一种有效的方法是把人和方案分开。先指出你真正理解的部分，再具体说明你在哪一点有不同看法。证据有帮助，但应与共同目标相连，而不是被当作武器。例如，不要说“你的方案风险太大”，可以说：“我明白速度为什么重要。我担心的是我们还没有测试付款流程，而我们都希望上线可靠。”这种结构不会消除分歧，却能让分歧更容易被讨论，也为混合方案留下空间，例如先测试风险最高的部分，同时让其他工作继续。",
       "vocabulary": [
-        { "id": "d10-v1", "term": "see something differently", "definition": "have a different opinion or interpretation", "example": "I understand your point, but I see the timing differently." },
-        { "id": "d10-v2", "term": "shared goal", "definition": "an outcome that all sides want", "example": "Let's return to our shared goal of a reliable launch." },
-        { "id": "d10-v3", "term": "mixed solution", "definition": "an approach that combines parts of different proposals", "example": "A mixed solution allowed testing and development to continue." },
-        { "id": "d10-v4", "term": "leave room for", "definition": "keep a possibility available", "example": "The wording leaves room for further discussion." }
+        {
+          "id": "d10-v1",
+          "term": "see something differently",
+          "definition": "have a different opinion or interpretation",
+          "example": "I understand your point, but I see the timing differently."
+        },
+        {
+          "id": "d10-v2",
+          "term": "shared goal",
+          "definition": "an outcome that all sides want",
+          "example": "Let's return to our shared goal of a reliable launch."
+        },
+        {
+          "id": "d10-v3",
+          "term": "mixed solution",
+          "definition": "an approach that combines parts of different proposals",
+          "example": "A mixed solution allowed testing and development to continue."
+        },
+        {
+          "id": "d10-v4",
+          "term": "leave room for",
+          "definition": "keep a possibility available",
+          "example": "The wording leaves room for further discussion."
+        }
       ],
       "quiz": [
         {
           "id": "d10-q1",
           "question": "Why does the passage recommend mentioning a shared goal?",
-          "options": ["To avoid giving any evidence", "To connect the concern to an outcome both sides value", "To prove that one person is correct"],
+          "options": [
+            "To avoid giving any evidence",
+            "To connect the concern to an outcome both sides value",
+            "To prove that one person is correct"
+          ],
           "correctIndex": 1,
           "explanation": "A shared goal keeps the discussion focused on the outcome rather than the person."
         },
         {
           "id": "d10-q2",
           "question": "What is the purpose of a mixed solution?",
-          "options": ["To combine useful parts of different approaches", "To delay every decision", "To hide the disagreement"],
+          "options": [
+            "To combine useful parts of different approaches",
+            "To delay every decision",
+            "To hide the disagreement"
+          ],
           "correctIndex": 0,
           "explanation": "The example combines targeted risk testing with continued work."
         }
       ],
       "speakingPrompts": [
-        { "id": "d10-s1", "prompt": "Disagree with a plan by acknowledging one benefit, naming one concern and returning to a shared goal.", "chineseHint": "避免直接评价对方；只讨论方案和证据。" },
-        { "id": "d10-s2", "prompt": "Propose a mixed solution to a disagreement about speed and quality.", "chineseHint": "说明哪些部分先进行，哪些部分需要先验证。" }
+        {
+          "id": "d10-s1",
+          "prompt": "Disagree with a plan by acknowledging one benefit, naming one concern and returning to a shared goal.",
+          "chineseHint": "避免直接评价对方；只讨论方案和证据。"
+        },
+        {
+          "id": "d10-s2",
+          "prompt": "Propose a mixed solution to a disagreement about speed and quality.",
+          "chineseHint": "说明哪些部分先进行，哪些部分需要先验证。"
+        }
       ],
       "dialogue": [
         {
@@ -945,14 +1070,22 @@
           "partnerLine": "We should launch now. More testing will only slow us down.",
           "partnerTranslation": "我们应该现在上线，更多测试只会拖慢进度。",
           "responseGoal": "Acknowledge the need for speed and raise one evidence-based risk.",
-          "usefulPhrases": ["I agree that speed matters", "The specific risk I see is", "We both want to"]
+          "usefulPhrases": [
+            "I agree that speed matters",
+            "The specific risk I see is",
+            "We both want to"
+          ]
         },
         {
           "id": "d10-r2",
           "partnerLine": "So are you saying we should postpone everything?",
           "partnerTranslation": "所以你的意思是我们应该把所有事情都推迟吗？",
           "responseGoal": "Correct the misunderstanding and propose a limited test rather than a full delay.",
-          "usefulPhrases": ["Not necessarily", "What I'm suggesting is", "That would allow us to"]
+          "usefulPhrases": [
+            "Not necessarily",
+            "What I'm suggesting is",
+            "That would allow us to"
+          ]
         }
       ],
       "writingTask": "Write a 140-word response to a proposal you disagree with. Include acknowledgment, one specific concern, supporting evidence and a mixed solution.",
@@ -960,7 +1093,125 @@
       "lessonID": "2026-10-19-respectful-disagreement",
       "publishDate": "2026-10-19",
       "level": "B2"
+    },
+    {
+      "title": "Negotiating a Realistic Deadline",
+      "theme": "在不破坏合作关系的前提下协商交期",
+      "coreMinutes": 40,
+      "extensionMinutes": 20,
+      "objectives": [
+        "解释延期原因而不推卸责任",
+        "提出带条件的替代方案",
+        "用缓和表达处理分歧"
+      ],
+      "warmUpQuestions": [
+        "What usually causes delays in your work?",
+        "How do you say no to an unrealistic request without sounding negative?"
+      ],
+      "passage": "A customer asked us to deliver the entire order by Friday. At first, the deadline seemed impossible because one component would not arrive until Thursday afternoon. Instead of simply rejecting the request, I explained the constraint and separated the order into two batches. We could ship the urgent items on Friday and send the remainder the following Tuesday. I also offered daily progress updates so the customer would not be left uncertain. The customer accepted the proposal because it protected their most important launch date. The experience reminded me that a good negotiation is not about winning an argument. It is about identifying the other side's real priority and building a workable solution around it.",
+      "passageTranslation": "客户要求我们在星期五前交付全部订单。起初这个期限似乎不可能，因为其中一种零件要到星期四下午才能到货。我没有直接拒绝，而是说明限制，并把订单分成两批。紧急产品可以周五发出，其余部分下周二发出。我还提出每天汇报进度，避免客户因信息不足而不安。客户接受了方案，因为它保障了最重要的上市日期。这次经历让我意识到，好的谈判不是赢得争论，而是找出对方真正的优先事项，并围绕它建立可行方案。",
+      "vocabulary": [
+        {
+          "id": "2026-10-20-v1",
+          "term": "constraint",
+          "definition": "a limitation that affects what can be done",
+          "example": "The main constraint is the supplier's lead time."
+        },
+        {
+          "id": "2026-10-20-v2",
+          "term": "workable",
+          "definition": "practical and likely to succeed",
+          "example": "We need a workable solution, not a perfect one."
+        },
+        {
+          "id": "2026-10-20-v3",
+          "term": "the remainder",
+          "definition": "the part that is left",
+          "example": "We can ship the remainder early next week."
+        },
+        {
+          "id": "2026-10-20-v4",
+          "term": "protect a deadline",
+          "definition": "take action so an important date is not missed",
+          "example": "Splitting the order helped protect the launch deadline."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "2026-10-20-q1",
+          "question": "Why did the customer accept the two-batch proposal?",
+          "options": [
+            "It reduced the price",
+            "It protected the most important launch date",
+            "It removed the need for updates"
+          ],
+          "correctIndex": 1,
+          "explanation": "The proposal addressed the customer's real priority: the launch."
+        },
+        {
+          "id": "2026-10-20-q2",
+          "question": "What is the writer's main lesson?",
+          "options": [
+            "Always accept the original deadline",
+            "Negotiation should focus on underlying priorities",
+            "Customers prefer partial information"
+          ],
+          "correctIndex": 1,
+          "explanation": "The final sentence explicitly focuses on the other side's real priority."
+        }
+      ],
+      "speakingPrompts": [
+        {
+          "id": "2026-10-20-s1",
+          "prompt": "Explain a delay and propose two alternatives in 60–90 seconds.",
+          "chineseHint": "结构：承认目标 → 说明限制 → 提出两种方案 → 推荐其中一种。"
+        },
+        {
+          "id": "2026-10-20-s2",
+          "prompt": "Respond to: ‘We need the full order by Friday. This is non-negotiable.’",
+          "chineseHint": "使用 I understand…, however…, what we can commit to is…"
+        }
+      ],
+      "dialogue": [
+        {
+          "id": "2026-10-20-r1",
+          "partnerLine": "We need the full order by Friday. This is non-negotiable.",
+          "partnerTranslation": "我们必须在周五收到全部订单，这一点不能商量。",
+          "responseGoal": "Acknowledge the urgency, explain the component constraint and avoid a flat refusal.",
+          "usefulPhrases": [
+            "I understand how critical Friday is",
+            "The constraint we're facing is",
+            "What we can guarantee is"
+          ]
+        },
+        {
+          "id": "2026-10-20-r2",
+          "partnerLine": "A partial shipment may not be enough. How does that help our launch?",
+          "partnerTranslation": "部分发货可能不够。这对我们的上市有什么帮助？",
+          "responseGoal": "Connect the urgent batch to the customer's launch priority and offer progress updates.",
+          "usefulPhrases": [
+            "The first batch would cover",
+            "This protects your priority by",
+            "We'll keep you updated"
+          ]
+        },
+        {
+          "id": "2026-10-20-r3",
+          "partnerLine": "All right. Please confirm the quantities and dates in writing.",
+          "partnerTranslation": "好的，请书面确认数量和日期。",
+          "responseGoal": "Confirm the next action and specify when the written plan will arrive.",
+          "usefulPhrases": [
+            "I'll send a breakdown by",
+            "It will confirm",
+            "Please let me know if"
+          ]
+        }
+      ],
+      "writingTask": "Write a 120-word email proposing a split shipment. Include one constraint, two options and a clear recommendation.",
+      "extensionTask": "Record the same proposal twice: first in a direct style, then in a diplomatic style. Compare which phrases changed the tone.",
+      "lessonID": "2026-10-20-negotiating-a-realistic-deadline",
+      "publishDate": "2026-10-20",
+      "level": "B2"
     }
-  ],
-  "contentVersion": 3
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "contentVersion": 4,
-  "updatedAt": "2026-10-20T00:52:32.404273Z",
+  "contentVersion": 5,
+  "updatedAt": "2026-10-21T00:20:12.945334Z",
   "lessons": [
     {
       "title": "Negotiating a Realistic Deadline",
@@ -1211,6 +1211,114 @@
       "extensionTask": "Record the same proposal twice: first in a direct style, then in a diplomatic style. Compare which phrases changed the tone.",
       "lessonID": "2026-10-20-negotiating-a-realistic-deadline",
       "publishDate": "2026-10-20",
+      "level": "B2"
+    },
+    {
+      "title": "Reading News Critically",
+      "theme": "识别报道中的事实、观点与缺失信息",
+      "coreMinutes": 38,
+      "extensionMinutes": 20,
+      "objectives": [
+        "区分事实陈述与推断",
+        "指出报道缺少的证据",
+        "用谨慎语言表达判断"
+      ],
+      "warmUpQuestions": [
+        "What makes you trust a news story?",
+        "Have you ever shared information that later proved inaccurate?"
+      ],
+      "passage": "A convincing headline can create the impression that an issue has already been settled. However, responsible readers pause before accepting the conclusion. They ask who produced the information, what evidence is available, and whether alternative explanations were considered. Numbers can also mislead without being false. For example, a report may describe a fifty-percent increase but fail to mention that the number rose from two cases to three. Images are equally powerful because they can be genuine while still being presented without context. Critical reading does not mean assuming that every source is dishonest. It means matching the strength of our conclusion to the quality of the available evidence.",
+      "passageTranslation": "一个有说服力的标题会让人觉得问题已有定论。然而，负责任的读者在接受结论前会暂停思考：信息由谁发布，有什么证据，是否考虑了其他解释。数字即使真实也可能产生误导。例如，报道说增长了百分之五十，却没说明数字只是从两例增加到三例。图片也同样有力量，因为它可能真实，却脱离了语境。批判性阅读并不是认定所有来源都不诚实，而是让结论的确定程度与现有证据的质量相匹配。",
+      "vocabulary": [
+        {
+          "id": "2026-10-21-v1",
+          "term": "settled",
+          "definition": "finally decided or no longer in doubt",
+          "example": "The debate is far from settled."
+        },
+        {
+          "id": "2026-10-21-v2",
+          "term": "alternative explanation",
+          "definition": "another possible reason for the same result",
+          "example": "The article ignored several alternative explanations."
+        },
+        {
+          "id": "2026-10-21-v3",
+          "term": "without context",
+          "definition": "without the background needed for correct understanding",
+          "example": "The quotation is misleading without context."
+        },
+        {
+          "id": "2026-10-21-v4",
+          "term": "match the strength of",
+          "definition": "make the degree of certainty appropriate to the evidence",
+          "example": "We should match the strength of our claim to the data."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "2026-10-21-q1",
+          "question": "Why can a percentage be misleading?",
+          "options": [
+            "Percentages are always estimates",
+            "The original numbers may be very small",
+            "Readers cannot understand mathematics"
+          ],
+          "correctIndex": 1,
+          "explanation": "The passage gives the example of an increase from two to three."
+        },
+        {
+          "id": "2026-10-21-q2",
+          "question": "What does critical reading require?",
+          "options": [
+            "Rejecting every source",
+            "Accepting only images",
+            "Adjusting certainty to evidence quality"
+          ],
+          "correctIndex": 2,
+          "explanation": "The conclusion should be no stronger than the evidence supports."
+        }
+      ],
+      "speakingPrompts": [
+        {
+          "id": "2026-10-21-s1",
+          "prompt": "Describe three checks you would perform before sharing a news story.",
+          "chineseHint": "使用 First…, another factor is…, finally…"
+        },
+        {
+          "id": "2026-10-21-s2",
+          "prompt": "Explain why a true statistic can still create a false impression.",
+          "chineseHint": "给出一个基数很小或缺少时间范围的例子。"
+        }
+      ],
+      "dialogue": [
+        {
+          "id": "2026-10-21-r1",
+          "partnerLine": "This headline has been shared thousands of times, so it must be reliable.",
+          "partnerTranslation": "这个标题被转发了几千次，所以肯定可靠。",
+          "responseGoal": "Challenge popularity as evidence without dismissing the other person.",
+          "usefulPhrases": [
+            "Popularity doesn't necessarily mean",
+            "I'd like to check",
+            "The key question is"
+          ]
+        },
+        {
+          "id": "2026-10-21-r2",
+          "partnerLine": "But the article includes statistics. What else do you need?",
+          "partnerTranslation": "但文章有统计数据，你还需要什么？",
+          "responseGoal": "Ask for the baseline, source and comparison period.",
+          "usefulPhrases": [
+            "We still need to know",
+            "Compared with what period",
+            "Who collected the data"
+          ]
+        }
+      ],
+      "writingTask": "Write a 120–150 word evaluation of an online claim using cautious phrases such as ‘appears to’, ‘may indicate’ and ‘the evidence is limited’.",
+      "extensionTask": "Choose one current headline and list the source, evidence, missing context and one alternative explanation. Do not copy the article.",
+      "lessonID": "2026-10-21-reading-news-critically",
+      "publishDate": "2026-10-21",
       "level": "B2"
     }
   ]

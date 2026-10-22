@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "contentVersion": 5,
-  "updatedAt": "2026-10-21T00:20:12.945334Z",
+  "contentVersion": 6,
+  "updatedAt": "2026-10-22T00:22:00.319773Z",
   "lessons": [
     {
       "title": "Negotiating a Realistic Deadline",
@@ -1319,6 +1319,114 @@
       "extensionTask": "Choose one current headline and list the source, evidence, missing context and one alternative explanation. Do not copy the article.",
       "lessonID": "2026-10-21-reading-news-critically",
       "publishDate": "2026-10-21",
+      "level": "B2"
+    },
+    {
+      "title": "Sustainable Choices at Work",
+      "theme": "讨论环保措施中的效果、成本与取舍",
+      "coreMinutes": 40,
+      "extensionMinutes": 15,
+      "objectives": [
+        "比较环保方案的实际影响",
+        "讨论短期成本与长期收益",
+        "提出有依据的建议"
+      ],
+      "warmUpQuestions": [
+        "Which environmental action at work has the greatest impact?",
+        "When can a green choice create an unexpected cost?"
+      ],
+      "passage": "Companies often announce environmental targets, but the most visible action is not always the most effective one. Replacing plastic cups may improve public perception, yet changes in energy use, transport and product design can have a much larger impact. The difficulty is that these measures require investment and cooperation across departments. A realistic plan should therefore compare the full life cycle of each option rather than focusing on a single material. It should also measure progress in a way that employees and customers can understand. If a target is ambitious but impossible to verify, it may create more suspicion than trust. Sustainability becomes credible when an organization explains both what it has achieved and where it is still falling short.",
+      "passageTranslation": "公司经常宣布环保目标，但最显眼的行动不一定最有效。更换塑料杯可能改善公众印象，但能源使用、运输和产品设计的改变可能影响更大。困难在于这些措施需要投资和跨部门合作。因此，现实的计划应比较每个选择的完整生命周期，而不是只关注一种材料；还应以员工和客户能理解的方式衡量进展。如果目标雄心勃勃却无法验证，反而可能引起更多怀疑。一个组织既说明已取得的成果，也坦诚仍有不足，可持续发展才更可信。",
+      "vocabulary": [
+        {
+          "id": "2026-10-22-v1",
+          "term": "public perception",
+          "definition": "the way the public views something",
+          "example": "The campaign improved public perception of the brand."
+        },
+        {
+          "id": "2026-10-22-v2",
+          "term": "life cycle",
+          "definition": "all stages from production to disposal",
+          "example": "We assessed the product's full life cycle."
+        },
+        {
+          "id": "2026-10-22-v3",
+          "term": "verifiable",
+          "definition": "able to be checked and proven",
+          "example": "The company published verifiable emissions data."
+        },
+        {
+          "id": "2026-10-22-v4",
+          "term": "fall short",
+          "definition": "fail to reach a target or standard",
+          "example": "The first plan fell short of its target."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "2026-10-22-q1",
+          "question": "Why may replacing cups be insufficient?",
+          "options": [
+            "Customers dislike cups",
+            "Other operational changes may have a greater impact",
+            "Cups cannot be recycled"
+          ],
+          "correctIndex": 1,
+          "explanation": "The passage contrasts visible action with larger operational impacts."
+        },
+        {
+          "id": "2026-10-22-q2",
+          "question": "What makes sustainability claims credible?",
+          "options": [
+            "Only reporting successes",
+            "Using ambitious slogans",
+            "Reporting achievements and limitations honestly"
+          ],
+          "correctIndex": 2,
+          "explanation": "Transparent reporting builds credibility."
+        }
+      ],
+      "speakingPrompts": [
+        {
+          "id": "2026-10-22-s1",
+          "prompt": "Recommend one sustainability measure for a small company and justify the cost.",
+          "chineseHint": "比较 initial cost、measurable impact 和 long-term benefit。"
+        },
+        {
+          "id": "2026-10-22-s2",
+          "prompt": "Challenge a proposal that sounds green but lacks evidence.",
+          "chineseHint": "礼貌提问：How would we measure…? Have we considered…?"
+        }
+      ],
+      "dialogue": [
+        {
+          "id": "2026-10-22-r1",
+          "partnerLine": "Let's replace all our packaging next month. Customers will love it.",
+          "partnerTranslation": "我们下个月把所有包装都换掉吧，客户一定会喜欢。",
+          "responseGoal": "Support the goal but ask about life-cycle impact and cost.",
+          "usefulPhrases": [
+            "I support the objective",
+            "Before we commit",
+            "Have we assessed"
+          ]
+        },
+        {
+          "id": "2026-10-22-r2",
+          "partnerLine": "Why are you making a simple decision so complicated?",
+          "partnerTranslation": "为什么你把一个简单决定搞得这么复杂？",
+          "responseGoal": "Explain why measurement prevents an expensive symbolic action.",
+          "usefulPhrases": [
+            "The reason is",
+            "We want to avoid",
+            "A simple measure would be"
+          ]
+        }
+      ],
+      "writingTask": "Write a 130-word recommendation to management. Compare two options and explain how success should be measured.",
+      "extensionTask": "Create a three-column table: action, hidden cost, measurable benefit. Add at least four workplace actions.",
+      "lessonID": "2026-10-22-sustainable-choices-at-work",
+      "publishDate": "2026-10-22",
       "level": "B2"
     }
   ]

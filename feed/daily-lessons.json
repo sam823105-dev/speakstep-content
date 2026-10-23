@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "contentVersion": 6,
-  "updatedAt": "2026-10-22T00:22:00.319773Z",
+  "contentVersion": 7,
+  "updatedAt": "2026-10-23T00:21:12.828570Z",
   "lessons": [
     {
       "title": "Negotiating a Realistic Deadline",
@@ -1427,6 +1427,114 @@
       "extensionTask": "Create a three-column table: action, hidden cost, measurable benefit. Add at least four workplace actions.",
       "lessonID": "2026-10-22-sustainable-choices-at-work",
       "publishDate": "2026-10-22",
+      "level": "B2"
+    },
+    {
+      "title": "Giving Constructive Feedback",
+      "theme": "在明确问题的同时保持尊重和可执行性",
+      "coreMinutes": 35,
+      "extensionMinutes": 20,
+      "objectives": [
+        "描述具体行为而非评价人格",
+        "说明影响并提出下一步",
+        "回应不同意见"
+      ],
+      "warmUpQuestions": [
+        "What makes feedback difficult to accept?",
+        "Do you prefer direct or indirect feedback? Why?"
+      ],
+      "passage": "Feedback becomes useful when it is specific enough to guide action. Saying that a presentation was weak gives the speaker little direction. Explaining that the main recommendation appeared only at the end is more helpful because the problem can be corrected. Timing also matters. Immediate feedback can prevent repeated mistakes, but a tense public discussion may cause the recipient to become defensive. A private conversation after emotions have settled is often more productive. Finally, feedback should allow room for information we may not have. Asking what influenced a decision can reveal constraints that were invisible to us. Constructive feedback combines clarity with curiosity: it states the observed impact while remaining open to another perspective.",
+      "passageTranslation": "反馈要具体到能够指导行动，才真正有用。只说演示很差，演讲者不知道如何改进；说明主要建议直到最后才出现，则更有帮助，因为问题可以修正。时机也很重要。立即反馈能防止重复错误，但在紧张的公开讨论中可能让对方产生防御。等情绪平静后私下沟通往往更有效。最后，反馈应给未知信息留出空间。询问某个决定受什么因素影响，可能揭示我们看不到的限制。建设性反馈把清晰与好奇结合起来：既说明观察到的影响，也对另一种观点保持开放。",
+      "vocabulary": [
+        {
+          "id": "2026-10-23-v1",
+          "term": "guide action",
+          "definition": "provide enough direction for someone to act",
+          "example": "The review should guide action, not merely express dissatisfaction."
+        },
+        {
+          "id": "2026-10-23-v2",
+          "term": "become defensive",
+          "definition": "react as if personally attacked",
+          "example": "People become defensive when criticism feels personal."
+        },
+        {
+          "id": "2026-10-23-v3",
+          "term": "allow room for",
+          "definition": "leave space for another possibility",
+          "example": "We should allow room for information we do not yet have."
+        },
+        {
+          "id": "2026-10-23-v4",
+          "term": "observed impact",
+          "definition": "the result that was actually noticed",
+          "example": "Describe the observed impact before suggesting a solution."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "2026-10-23-q1",
+          "question": "Why is the presentation example useful?",
+          "options": [
+            "It attacks the speaker",
+            "It identifies a correctable issue",
+            "It avoids giving any opinion"
+          ],
+          "correctIndex": 1,
+          "explanation": "Specific feedback tells the recipient what can change."
+        },
+        {
+          "id": "2026-10-23-q2",
+          "question": "Why ask what influenced a decision?",
+          "options": [
+            "To expose the recipient",
+            "To delay the conversation",
+            "To discover hidden constraints"
+          ],
+          "correctIndex": 2,
+          "explanation": "Curiosity can reveal information the reviewer lacks."
+        }
+      ],
+      "speakingPrompts": [
+        {
+          "id": "2026-10-23-s1",
+          "prompt": "Give feedback on a report whose conclusion is unclear.",
+          "chineseHint": "使用 When I read…, the impact was…, could we…?"
+        },
+        {
+          "id": "2026-10-23-s2",
+          "prompt": "Respond calmly when someone disagrees with your feedback.",
+          "chineseHint": "先承认信息差，再请求例子或背景。"
+        }
+      ],
+      "dialogue": [
+        {
+          "id": "2026-10-23-r1",
+          "partnerLine": "I thought the report was clear. Nobody else complained.",
+          "partnerTranslation": "我觉得报告很清楚，也没有其他人投诉。",
+          "responseGoal": "Describe the specific point of confusion without making it personal.",
+          "usefulPhrases": [
+            "The part I found difficult was",
+            "The impact was",
+            "Could we make the recommendation"
+          ]
+        },
+        {
+          "id": "2026-10-23-r2",
+          "partnerLine": "We didn't have time to restructure it.",
+          "partnerTranslation": "我们没有时间重新调整结构。",
+          "responseGoal": "Acknowledge the constraint and suggest a small realistic change.",
+          "usefulPhrases": [
+            "That makes sense",
+            "A smaller change could be",
+            "For the next version"
+          ]
+        }
+      ],
+      "writingTask": "Rewrite three vague comments—‘not professional’, ‘too slow’, ‘confusing’—as specific, actionable feedback.",
+      "extensionTask": "Record a two-minute feedback conversation containing an observation, impact, question and agreed next step.",
+      "lessonID": "2026-10-23-giving-constructive-feedback",
+      "publishDate": "2026-10-23",
       "level": "B2"
     }
   ]

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "contentVersion": 7,
-  "updatedAt": "2026-10-23T00:21:12.828570Z",
+  "contentVersion": 8,
+  "updatedAt": "2026-10-24T00:11:25.756278Z",
   "lessons": [
     {
       "title": "Negotiating a Realistic Deadline",
@@ -1535,6 +1535,114 @@
       "extensionTask": "Record a two-minute feedback conversation containing an observation, impact, question and agreed next step.",
       "lessonID": "2026-10-23-giving-constructive-feedback",
       "publishDate": "2026-10-23",
+      "level": "B2"
+    },
+    {
+      "title": "The Trade-offs of Hybrid Work",
+      "theme": "用平衡论证讨论远程与办公室协作",
+      "coreMinutes": 40,
+      "extensionMinutes": 20,
+      "objectives": [
+        "构建包含让步的观点",
+        "比较效率与协作成本",
+        "总结复杂讨论"
+      ],
+      "warmUpQuestions": [
+        "Which tasks are easier at home?",
+        "What can remote teams lose besides face-to-face contact?"
+      ],
+      "passage": "Hybrid work is often discussed as a choice between freedom and control, but the real issue is coordination. Employees may concentrate better at home and avoid a long commute. At the same time, spontaneous questions become scheduled meetings, and new colleagues may struggle to learn informal practices. Requiring everyone to attend the office every day solves some coordination problems but removes much of the flexibility people value. A better policy defines which activities genuinely benefit from shared space. Teams might meet in person for planning, difficult decisions and relationship-building, while protecting remote time for focused individual work. The success of such a policy depends less on the number of office days than on whether expectations are clear and applied consistently.",
+      "passageTranslation": "混合办公常被描述为自由与控制之间的选择，但真正的问题是协调。员工在家可能更专注，也免去长途通勤；与此同时，临时提问变成预约会议，新同事也可能难以学到非正式的工作方式。要求所有人每天到办公室能解决部分协调问题，却会失去大家重视的灵活性。更好的政策应明确哪些活动真正受益于共享空间。团队可在线下进行规划、困难决策和关系建设，同时保留远程时间处理需要专注的个人工作。政策是否成功，与其说取决于到办公室几天，不如说取决于期望是否清晰并得到一致执行。",
+      "vocabulary": [
+        {
+          "id": "2026-10-24-v1",
+          "term": "spontaneous",
+          "definition": "happening naturally without advance planning",
+          "example": "Remote work reduces spontaneous conversations."
+        },
+        {
+          "id": "2026-10-24-v2",
+          "term": "informal practices",
+          "definition": "unwritten ways of doing work",
+          "example": "New employees learn informal practices by observing colleagues."
+        },
+        {
+          "id": "2026-10-24-v3",
+          "term": "shared space",
+          "definition": "a physical place used together",
+          "example": "Creative workshops benefit from shared space."
+        },
+        {
+          "id": "2026-10-24-v4",
+          "term": "apply consistently",
+          "definition": "use the same rule fairly over time",
+          "example": "The policy must be applied consistently across teams."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "2026-10-24-q1",
+          "question": "What does the writer identify as the central issue?",
+          "options": [
+            "Employee control",
+            "Office rent",
+            "Coordination"
+          ],
+          "correctIndex": 2,
+          "explanation": "The opening sentence reframes the issue as coordination."
+        },
+        {
+          "id": "2026-10-24-q2",
+          "question": "What should determine in-person work?",
+          "options": [
+            "A fixed number chosen for every task",
+            "Activities that benefit from shared space",
+            "The longest possible commute"
+          ],
+          "correctIndex": 1,
+          "explanation": "The proposed policy links location to the kind of activity."
+        }
+      ],
+      "speakingPrompts": [
+        {
+          "id": "2026-10-24-s1",
+          "prompt": "Argue for a hybrid policy while acknowledging one serious disadvantage.",
+          "chineseHint": "使用 Although…, the stronger argument is…"
+        },
+        {
+          "id": "2026-10-24-s2",
+          "prompt": "Summarize the passage in no more than 45 seconds.",
+          "chineseHint": "只保留问题、权衡和建议。"
+        }
+      ],
+      "dialogue": [
+        {
+          "id": "2026-10-24-r1",
+          "partnerLine": "If people are productive at home, why require any office days?",
+          "partnerTranslation": "如果大家在家效率高，为什么还要求到办公室？",
+          "responseGoal": "Explain which activities benefit from physical presence.",
+          "usefulPhrases": [
+            "Individual productivity is only one factor",
+            "In-person time is valuable when",
+            "For example"
+          ]
+        },
+        {
+          "id": "2026-10-24-r2",
+          "partnerLine": "That sounds unfair to employees with long commutes.",
+          "partnerTranslation": "这对通勤很远的员工似乎不公平。",
+          "responseGoal": "Acknowledge the cost and propose predictable, limited attendance.",
+          "usefulPhrases": [
+            "That's a valid concern",
+            "We could reduce the burden by",
+            "The schedule should be"
+          ]
+        }
+      ],
+      "writingTask": "Write a balanced 150-word policy note recommending which activities should happen in person and which should remain remote.",
+      "extensionTask": "Interview one colleague or friend about hybrid work, then report one point that changed or complicated your view.",
+      "lessonID": "2026-10-24-the-trade-offs-of-hybrid-work",
+      "publishDate": "2026-10-24",
       "level": "B2"
     }
   ]

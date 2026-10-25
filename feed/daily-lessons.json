@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "contentVersion": 9,
-  "updatedAt": "2026-10-24T23:56:44.758376Z",
+  "contentVersion": 10,
+  "updatedAt": "2026-10-25T23:43:38.068736Z",
   "lessons": [
     {
       "title": "Negotiating a Realistic Deadline",
@@ -1751,6 +1751,114 @@
       "extensionTask": "Review your message and underline every promise. Remove or qualify any promise you cannot personally guarantee.",
       "lessonID": "2026-10-25-handling-a-complex-complaint",
       "publishDate": "2026-10-25",
+      "level": "B2"
+    },
+    {
+      "title": "Weekly Integration Challenge",
+      "theme": "整合本周语言：分析、协商、反馈与总结",
+      "coreMinutes": 45,
+      "extensionMinutes": 15,
+      "objectives": [
+        "整合本周高频表达",
+        "连续表达观点两分钟",
+        "根据证据修正自己的结论"
+      ],
+      "warmUpQuestions": [
+        "Which lesson changed how you would communicate at work?",
+        "Which task was hardest: understanding, speaking or writing?"
+      ],
+      "passage": "Progress at B2 level is rarely about learning one more grammar rule. It is increasingly about control: choosing language that fits the purpose, recognizing uncertainty and connecting ideas clearly. A strong learner can explain a position, acknowledge a reasonable objection and still make a practical recommendation. This week’s topics may appear different, yet they share one skill. Whether we evaluate a headline, negotiate a deadline or answer a complaint, we must separate facts from assumptions and make our reasoning visible. Fluency matters, but reliable communication also requires revision. Recording an answer, noticing where the argument becomes vague and trying again is not a sign of failure. It is the process through which confident language becomes precise language.",
+      "passageTranslation": "到了 B2 水平，进步很少只是再学一条语法规则，而越来越在于控制力：选择符合目的的语言、识别不确定性并清晰连接观点。优秀的学习者能够解释立场，承认合理反对意见，同时仍提出可执行建议。本周主题看似不同，却共享一种能力：无论评估标题、协商期限还是回复投诉，我们都必须区分事实与假设，并让推理过程清晰可见。流利很重要，但可靠沟通也需要修订。录下回答、发现论证含糊之处再尝试一次，并不是失败，而是让自信表达变得精准的过程。",
+      "vocabulary": [
+        {
+          "id": "2026-10-26-v1",
+          "term": "language control",
+          "definition": "the ability to choose accurate language for a purpose",
+          "example": "B2 learners need greater control, not just more vocabulary."
+        },
+        {
+          "id": "2026-10-26-v2",
+          "term": "reasonable objection",
+          "definition": "a valid argument against a proposal",
+          "example": "She acknowledged a reasonable objection before responding."
+        },
+        {
+          "id": "2026-10-26-v3",
+          "term": "make reasoning visible",
+          "definition": "explain how evidence leads to a conclusion",
+          "example": "A good report makes its reasoning visible."
+        },
+        {
+          "id": "2026-10-26-v4",
+          "term": "revise",
+          "definition": "review and improve something",
+          "example": "Record, review and revise your answer."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "2026-10-26-q1",
+          "question": "What does the passage identify as central to B2 progress?",
+          "options": [
+            "Memorizing isolated rules",
+            "Controlling language for purpose and precision",
+            "Speaking as quickly as possible"
+          ],
+          "correctIndex": 1,
+          "explanation": "The passage emphasizes choice, uncertainty and connected reasoning."
+        },
+        {
+          "id": "2026-10-26-q2",
+          "question": "Why is re-recording useful?",
+          "options": [
+            "It hides all mistakes",
+            "It turns vague reasoning into more precise communication",
+            "It replaces listening practice"
+          ],
+          "correctIndex": 1,
+          "explanation": "Revision improves both language and reasoning."
+        }
+      ],
+      "speakingPrompts": [
+        {
+          "id": "2026-10-26-s1",
+          "prompt": "Give a two-minute recommendation that includes evidence, one objection and a practical next step.",
+          "chineseHint": "任选本周主题；录制两次，第二次减少停顿和模糊词。"
+        },
+        {
+          "id": "2026-10-26-s2",
+          "prompt": "Summarize your strongest and weakest communication skill this week.",
+          "chineseHint": "提供具体证据，不要只说 good 或 bad。"
+        }
+      ],
+      "dialogue": [
+        {
+          "id": "2026-10-26-r1",
+          "partnerLine": "Which communication skill improved most this week?",
+          "partnerTranslation": "本周哪项沟通能力提高最大？",
+          "responseGoal": "Name one skill and support the claim with a specific example.",
+          "usefulPhrases": [
+            "The clearest improvement was",
+            "I noticed this when",
+            "Compared with my first attempt"
+          ]
+        },
+        {
+          "id": "2026-10-26-r2",
+          "partnerLine": "What will you change in next week's practice?",
+          "partnerTranslation": "下周练习你会改变什么？",
+          "responseGoal": "Set one measurable goal and explain why it matters.",
+          "usefulPhrases": [
+            "My measurable goal is",
+            "I'll track it by",
+            "This matters because"
+          ]
+        }
+      ],
+      "writingTask": "Write a 160-word weekly reflection: one useful expression, one repeated weakness, evidence of progress and one measurable goal for next week.",
+      "extensionTask": "Choose one earlier speaking recording, repeat it without reading, and compare structure, precision and delivery.",
+      "lessonID": "2026-10-26-weekly-integration-challenge",
+      "publishDate": "2026-10-26",
       "level": "B2"
     }
   ]

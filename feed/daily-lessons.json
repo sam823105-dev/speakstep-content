@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "contentVersion": 10,
-  "updatedAt": "2026-10-25T23:43:38.068736Z",
+  "contentVersion": 11,
+  "updatedAt": "2026-10-27T01:03:14.715028Z",
   "lessons": [
     {
       "title": "Negotiating a Realistic Deadline",
@@ -1859,6 +1859,114 @@
       "extensionTask": "Choose one earlier speaking recording, repeat it without reading, and compare structure, precision and delivery.",
       "lessonID": "2026-10-26-weekly-integration-challenge",
       "publishDate": "2026-10-26",
+      "level": "B2"
+    },
+    {
+      "title": "Clarifying a Change Request",
+      "theme": "在项目进行中澄清客户的新要求",
+      "coreMinutes": 40,
+      "extensionMinutes": 15,
+      "objectives": [
+        "确认需求变化的具体范围",
+        "解释变化对时间和成本的影响",
+        "提出清晰的下一步安排"
+      ],
+      "warmUpQuestions": [
+        "What information do you need before accepting a change request?",
+        "How can you discuss extra cost without sounding unhelpful?"
+      ],
+      "passage": "Halfway through a packaging project, the customer asked us to replace the original material and add two new tests. The request sounded simple, but it affected several parts of the schedule. Before agreeing, I asked whether the new material was required for every model and which test standard the customer expected. I then summarized the change in writing and explained its likely impact on cost, sample approval and delivery. Rather than saying that the request was impossible, I offered two routes. We could keep the original launch date by changing only the priority models, or apply the change to the full order and move delivery by one week. The customer chose the first option. Clear questions prevented us from making an expensive assumption and gave both sides a shared basis for the decision.",
+      "passageTranslation": "包装项目进行到一半时，客户要求更换原材料并增加两项测试。这个要求听起来简单，却会影响进度的多个环节。在答应之前，我先确认新材料是否适用于所有型号，以及客户要求哪一种测试标准。随后我用书面方式总结变更，并说明它可能对成本、样品批准和交付造成的影响。我没有直接说要求无法实现，而是提供两条路径：如果只更改优先型号，可以保留原上市日期；如果整批订单都变更，交付则需要延后一周。客户选择了第一种。清晰的问题避免了代价高昂的假设，也为双方决策建立了共同依据。",
+      "vocabulary": [
+        {
+          "id": "2026-10-27-v1",
+          "term": "scope",
+          "definition": "the exact range of work included in a project",
+          "example": "We need to confirm whether the request changes the project scope."
+        },
+        {
+          "id": "2026-10-27-v2",
+          "term": "likely impact",
+          "definition": "the effect that something is expected to have",
+          "example": "Please review the likely impact on cost and timing."
+        },
+        {
+          "id": "2026-10-27-v3",
+          "term": "shared basis",
+          "definition": "information or principles accepted by everyone involved",
+          "example": "The written summary gave us a shared basis for the decision."
+        },
+        {
+          "id": "2026-10-27-v4",
+          "term": "make an assumption",
+          "definition": "accept something as true without enough evidence",
+          "example": "Ask for the test standard instead of making an assumption."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "2026-10-27-q1",
+          "question": "Why did the writer ask which models needed the new material?",
+          "options": [
+            "To avoid an unnecessary full-order change",
+            "To cancel the project",
+            "To select a cheaper customer"
+          ],
+          "correctIndex": 0,
+          "explanation": "The scope question made it possible to change only the priority models."
+        },
+        {
+          "id": "2026-10-27-q2",
+          "question": "What made the two proposed routes useful?",
+          "options": [
+            "They hid the extra cost",
+            "They connected scope choices with schedule consequences",
+            "They guaranteed that no tests were needed"
+          ],
+          "correctIndex": 1,
+          "explanation": "Each route showed a clear trade-off between the amount of change and the delivery date."
+        }
+      ],
+      "speakingPrompts": [
+        {
+          "id": "2026-10-27-s1",
+          "prompt": "Ask four questions to clarify a customer's change request.",
+          "chineseHint": "覆盖型号、数量、标准和期望日期，不要立即承诺。"
+        },
+        {
+          "id": "2026-10-27-s2",
+          "prompt": "Explain two implementation options and recommend one of them.",
+          "chineseHint": "使用 If we…, the impact would be…；最后明确推荐。"
+        }
+      ],
+      "dialogue": [
+        {
+          "id": "2026-10-27-r1",
+          "partnerLine": "We would like to use the new material for this order. Can you confirm today?",
+          "partnerTranslation": "我们想在这批订单中使用新材料，你今天能确认吗？",
+          "responseGoal": "Acknowledge the request and clarify its scope before committing.",
+          "usefulPhrases": [
+            "Before I confirm",
+            "Could you clarify whether",
+            "Does this apply to"
+          ]
+        },
+        {
+          "id": "2026-10-27-r2",
+          "partnerLine": "Why would such a small change affect delivery?",
+          "partnerTranslation": "这么小的改动为什么会影响交付？",
+          "responseGoal": "Explain the testing and approval dependencies without sounding defensive.",
+          "usefulPhrases": [
+            "The change itself is manageable",
+            "The timing impact comes from",
+            "Once approval is complete"
+          ]
+        }
+      ],
+      "writingTask": "Write a 130-word change-request summary covering scope, assumptions, timing impact, two options and the decision needed from the customer.",
+      "extensionTask": "Review a real or imaginary request and list what is confirmed, what is assumed and what still needs clarification.",
+      "lessonID": "2026-10-27-clarifying-a-change-request",
+      "publishDate": "2026-10-27",
       "level": "B2"
     }
   ]

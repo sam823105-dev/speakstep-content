@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "contentVersion": 11,
-  "updatedAt": "2026-10-27T01:03:14.715028Z",
+  "contentVersion": 12,
+  "updatedAt": "2026-10-28T00:54:33.720951Z",
   "lessons": [
     {
       "title": "Negotiating a Realistic Deadline",
@@ -1967,6 +1967,114 @@
       "extensionTask": "Review a real or imaginary request and list what is confirmed, what is assumed and what still needs clarification.",
       "lessonID": "2026-10-27-clarifying-a-change-request",
       "publishDate": "2026-10-27",
+      "level": "B2"
+    },
+    {
+      "title": "Resolving a Hotel Booking Problem",
+      "theme": "在酒店预订出现问题时清楚说明并协商解决",
+      "coreMinutes": 38,
+      "extensionMinutes": 15,
+      "objectives": [
+        "有条理地说明预订问题",
+        "礼貌但坚定地提出合理要求",
+        "确认解决方案的具体细节"
+      ],
+      "warmUpQuestions": [
+        "What booking details should you keep before a trip?",
+        "When does a polite complaint need to become more direct?"
+      ],
+      "passage": "When I arrived at the hotel, the receptionist could not find my reservation, even though I had a confirmation email. The hotel was almost full, and the only available room was more expensive than the one I had booked. I remained calm and showed the booking number, dates and payment record. I explained that I understood mistakes could happen, but I should not have to pay extra for a problem I had not caused. The receptionist checked with the manager and offered the available room at my original price, including breakfast. Before accepting, I confirmed that the rate would remain unchanged for all three nights and asked for the new arrangement in writing. The problem took fifteen minutes to resolve. Staying specific and focusing on a fair outcome was more effective than expressing general frustration.",
+      "passageTranslation": "我到达酒店时，前台找不到我的预订，尽管我有确认邮件。酒店几乎满房，唯一剩下的房间比我原订的更贵。我保持冷静，出示了预订编号、日期和付款记录。我说明自己理解错误可能发生，但不应该为并非由我造成的问题支付额外费用。前台与经理确认后，以原价提供了现有房间，并包含早餐。在接受之前，我确认三晚房价都会保持不变，并要求把新安排写下来。问题用了十五分钟解决。具体说明事实并专注于公平结果，比笼统表达不满更有效。",
+      "vocabulary": [
+        {
+          "id": "2026-10-28-v1",
+          "term": "confirmation email",
+          "definition": "a message proving that a booking has been accepted",
+          "example": "I can show you the confirmation email and booking number."
+        },
+        {
+          "id": "2026-10-28-v2",
+          "term": "available room",
+          "definition": "a room that is not currently booked",
+          "example": "The only available room was a larger one."
+        },
+        {
+          "id": "2026-10-28-v3",
+          "term": "at the original price",
+          "definition": "for the same price agreed at first",
+          "example": "The manager offered the room at the original price."
+        },
+        {
+          "id": "2026-10-28-v4",
+          "term": "fair outcome",
+          "definition": "a reasonable result that treats the people involved properly",
+          "example": "We focused on finding a fair outcome."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "2026-10-28-q1",
+          "question": "Why did the writer refuse to pay the higher rate?",
+          "options": [
+            "The room included breakfast",
+            "The booking problem was not the writer's fault",
+            "The stay was only one night"
+          ],
+          "correctIndex": 1,
+          "explanation": "The writer had evidence of the original booking and had not caused the error."
+        },
+        {
+          "id": "2026-10-28-q2",
+          "question": "What did the writer confirm before accepting the solution?",
+          "options": [
+            "The rate for the entire stay and written confirmation",
+            "The name of every hotel employee",
+            "A free future holiday"
+          ],
+          "correctIndex": 0,
+          "explanation": "The writer checked the three-night rate and requested the arrangement in writing."
+        }
+      ],
+      "speakingPrompts": [
+        {
+          "id": "2026-10-28-s1",
+          "prompt": "Explain a missing hotel reservation using the booking number, dates and payment evidence.",
+          "chineseHint": "先讲事实，再说明期望的解决结果。"
+        },
+        {
+          "id": "2026-10-28-s2",
+          "prompt": "Politely refuse an extra charge and ask for an alternative solution.",
+          "chineseHint": "使用 I understand…, but I don't believe I should…"
+        }
+      ],
+      "dialogue": [
+        {
+          "id": "2026-10-28-r1",
+          "partnerLine": "I'm sorry, but I can't find a reservation under your name.",
+          "partnerTranslation": "很抱歉，我找不到您名下的预订。",
+          "responseGoal": "Present the booking evidence and ask the receptionist to check again.",
+          "usefulPhrases": [
+            "I have a confirmation here",
+            "The booking number is",
+            "Could you check using"
+          ]
+        },
+        {
+          "id": "2026-10-28-r2",
+          "partnerLine": "We have another room, but the nightly rate is higher.",
+          "partnerTranslation": "我们还有另一间房，但每晚价格更高。",
+          "responseGoal": "Decline the extra charge and request a fair solution based on the confirmed booking.",
+          "usefulPhrases": [
+            "I appreciate the option",
+            "Since my original booking was confirmed",
+            "Could you honor the original rate"
+          ]
+        }
+      ],
+      "writingTask": "Write a 120-word message to a hotel summarizing a booking problem, the evidence you provided and the solution you are requesting.",
+      "extensionTask": "Create a travel evidence checklist containing the five details you would save for a hotel, flight or train booking.",
+      "lessonID": "2026-10-28-resolving-a-hotel-booking-problem",
+      "publishDate": "2026-10-28",
       "level": "B2"
     }
   ]

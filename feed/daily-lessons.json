@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "contentVersion": 13,
-  "updatedAt": "2026-10-29T01:28:56.100745Z",
+  "contentVersion": 14,
+  "updatedAt": "2026-10-30T01:30:07.981079Z",
   "lessons": [
     {
       "title": "Negotiating a Realistic Deadline",
@@ -2183,6 +2183,125 @@
       "extensionTask": "Rewrite three direct disagreement phrases in a calmer style, then read both versions aloud and compare their tone.",
       "lessonID": "2026-10-29-disagreeing-without-creating-conflict",
       "publishDate": "2026-10-29",
+      "level": "B2"
+    },
+    {
+      "title": "Negotiating a Realistic Deadline",
+      "theme": "在不破坏合作关系的前提下协商交期",
+      "coreMinutes": 40,
+      "extensionMinutes": 20,
+      "objectives": [
+        "解释延期原因而不推卸责任",
+        "提出带条件的替代方案",
+        "用缓和表达处理分歧"
+      ],
+      "warmUpQuestions": [
+        "What usually causes delays in your work?",
+        "How do you say no to an unrealistic request without sounding negative?"
+      ],
+      "passage": "A customer asked us to deliver the entire order by Friday. At first, the deadline seemed impossible because one component would not arrive until Thursday afternoon. Instead of simply rejecting the request, I explained the constraint and separated the order into two batches. We could ship the urgent items on Friday and send the remainder the following Tuesday. I also offered daily progress updates so the customer would not be left uncertain. The customer accepted the proposal because it protected their most important launch date. The experience reminded me that a good negotiation is not about winning an argument. It is about identifying the other side's real priority and building a workable solution around it.",
+      "passageTranslation": "客户要求我们在星期五前交付全部订单。起初这个期限似乎不可能，因为其中一种零件要到星期四下午才能到货。我没有直接拒绝，而是说明限制，并把订单分成两批。紧急产品可以周五发出，其余部分下周二发出。我还提出每天汇报进度，避免客户因信息不足而不安。客户接受了方案，因为它保障了最重要的上市日期。这次经历让我意识到，好的谈判不是赢得争论，而是找出对方真正的优先事项，并围绕它建立可行方案。",
+      "vocabulary": [
+        {
+          "id": "2026-10-30-v1",
+          "term": "constraint",
+          "definition": "a limitation that affects what can be done",
+          "example": "The main constraint is the supplier's lead time."
+        },
+        {
+          "id": "2026-10-30-v2",
+          "term": "workable",
+          "definition": "practical and likely to succeed",
+          "example": "We need a workable solution, not a perfect one."
+        },
+        {
+          "id": "2026-10-30-v3",
+          "term": "the remainder",
+          "definition": "the part that is left",
+          "example": "We can ship the remainder early next week."
+        },
+        {
+          "id": "2026-10-30-v4",
+          "term": "protect a deadline",
+          "definition": "take action so an important date is not missed",
+          "example": "Splitting the order helped protect the launch deadline."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "2026-10-30-q1",
+          "question": "Why did the customer accept the two-batch proposal?",
+          "options": [
+            "It reduced the price",
+            "It protected the most important launch date",
+            "It removed the need for updates"
+          ],
+          "correctIndex": 1,
+          "explanation": "The proposal addressed the customer's real priority: the launch."
+        },
+        {
+          "id": "2026-10-30-q2",
+          "question": "What is the writer's main lesson?",
+          "options": [
+            "Always accept the original deadline",
+            "Negotiation should focus on underlying priorities",
+            "Customers prefer partial information"
+          ],
+          "correctIndex": 1,
+          "explanation": "The final sentence explicitly focuses on the other side's real priority."
+        }
+      ],
+      "speakingPrompts": [
+        {
+          "id": "2026-10-30-s1",
+          "prompt": "Explain a delay and propose two alternatives in 60–90 seconds.",
+          "chineseHint": "结构：承认目标 → 说明限制 → 提出两种方案 → 推荐其中一种。"
+        },
+        {
+          "id": "2026-10-30-s2",
+          "prompt": "Respond to: ‘We need the full order by Friday. This is non-negotiable.’",
+          "chineseHint": "使用 I understand…, however…, what we can commit to is…"
+        }
+      ],
+      "dialogue": [
+        {
+          "id": "2026-10-30-r1",
+          "partnerLine": "We need the full order by Friday. This is non-negotiable.",
+          "partnerTranslation": "我们必须在周五收到全部订单，这一点不能商量。",
+          "responseGoal": "Acknowledge the urgency, explain the component constraint and avoid a flat refusal.",
+          "usefulPhrases": [
+            "I understand how critical Friday is",
+            "The constraint we're facing is",
+            "What we can guarantee is"
+          ]
+        },
+        {
+          "id": "2026-10-30-r2",
+          "partnerLine": "A partial shipment may not be enough. How does that help our launch?",
+          "partnerTranslation": "部分发货可能不够。这对我们的上市有什么帮助？",
+          "responseGoal": "Connect the urgent batch to the customer's launch priority and offer progress updates.",
+          "usefulPhrases": [
+            "The first batch would cover",
+            "This protects your priority by",
+            "We'll keep you updated"
+          ]
+        },
+        {
+          "id": "2026-10-30-r3",
+          "partnerLine": "All right. Please confirm the quantities and dates in writing.",
+          "partnerTranslation": "好的，请书面确认数量和日期。",
+          "responseGoal": "Confirm the next action and specify when the written plan will arrive.",
+          "usefulPhrases": [
+            "I'll send a breakdown by",
+            "It will confirm",
+            "Please let me know if"
+          ]
+        }
+      ],
+      "writingTask": "Write a 120-word email proposing a split shipment. Include one constraint, two options and a clear recommendation.",
+      "extensionTask": "Record the same proposal twice: first in a direct style, then in a diplomatic style. Compare which phrases changed the tone.",
+      "lessonID": "2026-10-30-negotiating-a-realistic-deadline",
+      "publishDate": "2026-10-30",
       "level": "B2"
     }
   ]
